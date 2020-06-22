@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Suez+One&display=swap');
+
+body {
+    font-family: 'Suez+one', sans-serif;
+    color: #525252;
+
+}
+
+.top-nav-collapse {
+    background-color: #24355c;
+}
+
+#myBtnContainer {
+    display: flex;
+    align-items: center;
+}
