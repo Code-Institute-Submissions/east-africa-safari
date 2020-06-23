@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 *{box-sizing: border-box;
 }
 
-body {
-    font-family: 'Suez+one', sans-serif;
-    color: #525252;
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Alata', sans-serif;
+    color: #222;
+
+}
+
+.navbar {
+    padding: 1rem;
 
 }
 
@@ -21,4 +29,10 @@ body {
     right: 0;
     top: 50%;
     margin-top: -40px;
+    }
+
+    .navbar img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
     }
