@@ -13,8 +13,16 @@ html, body {
 }
 
 .navbar {
-    padding: 1rem;
+    padding: 16px;
 
+}
+
+.navbar-nav li {
+    padding-right:20px;
+}
+.nav-link {
+    font-size: 24px !important;
+    color: rgb(50, 11, 223)
 }
 
     .slick-prev:before,
@@ -32,7 +40,15 @@ html, body {
     }
 
     .navbar img {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
+    }
+
+    .navbar-brand h3 {
+        font-family: 'Quicksand' sans-serif;
+        font-size: 32px;
+        display: inline-block;
+        text-transform: uppercase;
+
     }
