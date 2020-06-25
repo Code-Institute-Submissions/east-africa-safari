@@ -9,7 +9,21 @@ html, body {
     width: 100%;
     font-family: 'Alata', sans-serif;
     color: #222;
+}
 
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+section-heading {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #home,
@@ -32,9 +46,7 @@ html, body {
     background-color: transparent;
     width: 400px;
     height: 400px;
-    perspective: 1000px;
-    margin-left: 30px;
-    padding: 20px;
+    perspective: 1000px;    
 }
 
 .flip-card-inner {
@@ -70,6 +82,9 @@ html, body {
         transform: rotateY(180deg);
     }
 
+    div {
+        column-gap: 40px;
+    }
 
 
     
