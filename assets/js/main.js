@@ -1,10 +1,10 @@
 // items
 const places =[
     {
-        id:1,
+        id: 1,
         title: "maasai mara national reserve",
         category: "kenya",
-        img: "assets/images/places-item1.jpg",
+        img: "assets/images/item-1.jpg",
         desc: `Maasai Mara National Reserve is one of the key popular tourism points in Kenya. It is located in 
         South-Western Kenya along the Great Rift Valley adjacent to Serengeti National Park of Tanzania. The 
         attraction in Maasai Mara National Reserve are both nature and wildlife. The Wildebeest migration is 
@@ -13,10 +13,10 @@ const places =[
         leopard,buffalo and elephant) and lake Nakuru (for black and white rhino)`,
     },
     {
-        id:2,
+        id: 2,
         title: "bwindi impenetrable national park",
         category: "uganda",
-        img: "assets/images/places-item2.jpg",
+        img: "assets/images/item-2.jpg",
         desc: `Among East African forests, Bwindi has some of the richest populations of trees, small mammals, birds, 
         reptiles, butterflies and moths. The park's diverse species may be because the forest was a refuge for species 
         during glaciationin the pleistocene epoch. The park's forests are afromontane, a rare vegetation type of the African
@@ -25,10 +25,10 @@ const places =[
 
     },
     {
-        id:3,
+        id: 3,
         title: "serengeti national park",
         category: "tanzania",
-        img: "assets/images/places-item3.jpg",
+        img: "assets/images/item-3.jpg",
         desc: `Named for the Maasai word "siringet" (which translates roughly as "the place where the land runs on forever")
         Serengeti National Park is among the oldest game reserves in Tanzania. It is also one of the most iconic safari 
         destinations on the African continent. Located in the North of the country, it partly adjoins the Kenyan border
@@ -37,10 +37,10 @@ const places =[
 
     },
     {
-        id:4,
+        id: 4,
         title: "hell's gate national park",
         category: "kenya",
-        img: "assets/images/places-item4.jpg",
+        img: "assets/images/item-4.jpg",
         desc: `Hell's Gate National Park lies south of Lake Naivasha in Kenya, North West of Nairobi. A small national park, it is
         known for its wide variety of wildlife and for its scenery. There is a wide variety of wildlife in the national park, 
         though many are few in number. Examples of little seen wildlife include lions, leopards, and cheetahs. However, 
@@ -52,10 +52,10 @@ const places =[
 
     },
     {
-        id:5,
+        id: 5,
         title: "queen elizabeth national park",
         category: "uganda",
-        img: "assets/images/places-item5.jpg",
+        img: "assets/images/item-5.png",
         desc: `Queen Elizabeth National Park incorporates dozens of mirror surfaced crater-lakes, salty and fresh water lakes. 
         There are over 95 mammal including 10 primate species (chimpanzees, L’Hoest monkey, Columbus, baboons), up to 20 
         predators (lion, leopard, spotted hyena, etc.), antelopes, buffaloes, hippos, elephants. More than 610 bird species 
@@ -64,10 +64,10 @@ const places =[
 
     },
     {
-        id:6,
+        id: 6,
         title: "ngorongoro crater",
         category: "tanzania",
-        img: "assets/images/places-item6.jpg",
+        img: "assets/images/item-6.jpg",
         desc: `The main feature of the Ngorongoro Conservation Authority is the Ngorongoro Crater, the world's largest inactive, 
         intact and unfilled volcanic caldera The crater, which formed when a large volcano exploded and collapsed on itself two
         to three million years ago, is 610 metres (2,000 feet) deep and its floor covers 260 square kilometres (100 square miles)
@@ -78,10 +78,10 @@ const places =[
 
     },
     {
-        id:7,
+        id: 7,
         title: "rift valley lakes",
         category: "kenya",
-        img: "assets/images/places-item7.jpg",
+        img: "assets/images/item-7.jpg",
         desc: `The Kenyan section of the Rift Valley is home to eight lakes, of which three are freshwater and the rest alkaline. 
         Of the latter, the shallow soda lakes of the Eastern Rift Valley have crystallized salt turning the shores white and are 
         famous for the large flocks of flamingo that feed on crustaceans. The Rift Valley lakes are well known for the evolution
@@ -91,10 +91,10 @@ const places =[
 
     },
     {
-        id:8,
+        id: 8,
         title: "ruwenzori mountains",
         category: "uganda",
-        img: "assets/images/places-item8.jpg",
+        img: "assets/images/item-8.jpg",
         desc: `The Ruwenzori, are a range of mountains in eastern equatorial Africa, located on the border between Uganda and
         the Democratic Republic of the Congo. The highest peak of the Ruwenzori reaches 5,109 metres (16,762 ft), and the range's
         upper regions are permanently snow-capped and glaciated. Rivers fed by mountain streams form one of the sources of the 
@@ -107,10 +107,10 @@ const places =[
 
     },
     {
-        id:9,
+        id: 9,
         title: "tangarine national park",
         category: "tanzania",
-        img: "assets/images/places-item8.jpg",
+        img: "assets/images/item-9.jpg",
         desc: `Tarangire National Park is a national park in Tanzania's Manyara Region. The name of the park originates from the 
         Tarangire River that crosses the park. The Tarangire River is the primary source of fresh water for wild animals in the
         Tarangire Ecosystem during the annual dry season. The Tarangire Ecosystem is defined by the long-distance migration of
@@ -122,3 +122,25 @@ const places =[
 
     },
 ]
+
+// const sectionCenter = document.querySelector('.section-center');
+
+//  window.addEventListener('DOMContentLoaded',function () {
+    // let displayPlaces = places.map(function(item){
+
+        // return `<div class="places-item">
+                // <img src=${item.img} alt=${item.title} class="photo" />
+                // <div class="item-info">
+                    // <header class="text-center">
+                        // <h4>${item.title}</h4>
+                    // </header>
+                    // <p class="item-text">
+                    // ${item.desc}
+                    // </p>
+                // </div>
+            // </div>`
+
+    //  });
+    //  displayPlaces = displayPlaces.join("");
+    //  sectionCenter.innerHTML = displayPlaces;
+//  });
