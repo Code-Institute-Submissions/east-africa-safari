@@ -34,12 +34,18 @@ section-heading {
 }
 
 
-
+.nav-link {
+    font-size: 20px;
+}
 
 .carousel_slider img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
+
+.carousel-caption {}
+
+
 
 
 .flip-card {
@@ -131,7 +137,7 @@ section-heading {
 
 .photo {
   object-fit: cover;
-  height: 200px;
+  height: 300px;
   border: 0.25rem solid #c59d5f;
   border-radius: 0.5rem;
 
