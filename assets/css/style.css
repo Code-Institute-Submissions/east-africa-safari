@@ -11,6 +11,10 @@ html, body {
     color: #222;
 }
 
+header {
+    min-height: 100vh;
+}
+
 .row-table {
     display: table;
 }
