@@ -19,6 +19,10 @@ header {
     display: table;
 }
 
+h1 {
+    text-transform: capitalize;
+}
+
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
@@ -92,6 +96,13 @@ section-heading {
         background-color: #2980b9;
         color: #fff;
         transform: rotateY(180deg);
+        width: 400px;
+        height: 420px;
+        padding: 0 20px 0 20px;
+    }
+    hr {
+        border: 1px solid #fff;
+        width: 50%;
     }
 
    
