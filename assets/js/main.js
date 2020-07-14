@@ -32,7 +32,7 @@ const places =[
         desc: `Named for the Maasai word "siringet" (which translates roughly as "the place where the land runs on forever")
         Serengeti National Park is among the oldest game reserves in Tanzania. It is also one of the most iconic safari 
         destinations on the African continent. Located in the North of the country, it partly adjoins the Kenyan border
-        and together with the Masai Mara National Reserve provides the backdrop for ythe annual Great Migration - considered
+        and together with the Masai Mara National Reserve provides the backdrop for the annual Great Migration - considered
         by many to be the planet's most impressive natural event.`,
 
     },
