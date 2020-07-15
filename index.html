@@ -20,7 +20,7 @@
 <body data-spy="scroll" data-target="#navbarResponsive">
 
 <!--navigation-->
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top scrolling-navbar">
+<!-- <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top scrolling-navbar">
 
 <div class="container-fluid">
 <a class="navbar-brand" href="#index.html"><img src="assets/images/logo-1.png"></a>
@@ -47,7 +47,7 @@ data-target="#navbarResponsive">
 </ul>
 </div>
 </div>
-</nav>
+</nav> -->
 
 
 <!--image slider-->
@@ -215,14 +215,18 @@ data-target="#navbarResponsive">
 
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
-<script src="assets/js/main.js"></script>
+<script src="assets/js/slick.js"></script>
 <script type="text/javascript"> 
 $(document).ready(function(){
 $('.carousel_slider').slick({
  dots: true,
  infinite: true,
- speed: 1000,
- slidesToShow: 1,
+ speed: 300,
+ autoplay: true,
+ fade: true,
+ speed: 2000,
+ autoplaySpeed:1000,
+ slidesToShow: 1
     });
   }); 
  <!-- </script>  -->

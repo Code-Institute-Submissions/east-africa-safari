@@ -46,16 +46,66 @@ section-heading {
     font-size: 20px;
 }
 
-.carousel_slider img {
-    width: 100%;
-    height: 100%;
+img {
+   max-width: 100%;
+   
 }
 
-.carousel_slider div {
+.carousel_slider {
+    position: relative;
+
+}
+.carousel_slider .slick-next {
+    background: #fff ("assets/images/arrow-next.png") center center no-repeat;
+    font-size: 0px;
+    background-size: 80%;
+    border: 0px;
+    width:80px;
+    height: 146px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: 40px;
+}
+
+.carousel_slider .slick-prev {
+    background: #fff ("assets/images/arrow-prev.png") center center no-repeat;
+    font-size: 0px;
+    background-size: 80%;
+    border: 0px;
+    width:80px;
+    height: 146px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: 40px;
+    z-index: 10;
+}
+
+.carousel_slider .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 800px;
-    
-    }
+    z-index: 10;
+}
+
+
+.carousel_slider .slick-dots li {
+list-style: none;
+width: 15px;
+height: 15px;
+background: gray;
+border-radius: 50%;
+}
+
+.carousel_slider .slick-dots li.slick-active {
+    background: #000;
+}
+
+.carousel_slider .slick-dots li button {
+    display: none;
+}
 
 
 
