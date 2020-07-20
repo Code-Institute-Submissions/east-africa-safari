@@ -20,34 +20,34 @@
 <body data-spy="scroll" data-target="#navbarResponsive">
 
 <!--navigation-->
-<!-- <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top scrolling-navbar">
-
-<div class="container-fluid">
-<a class="navbar-brand" href="#index.html"><img src="assets/images/logo-1.png"></a>
-
-<button class="navbar-toggler" type="button" data-toggle="collapse"
-data-target="#navbarResponsive">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse links-container" id="navbarResponsive">
-<ul class="navbar-nav ml-auto">
-<li class="nav-item active">
-<a class="nav-link" href="#home">Home</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#destinations">Destinations</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#map">Map</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#feedback">Feedback</a>
-</li>
-</ul>
-</div>
-</div>
-</nav> -->
+<section id="nav-bar">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">East Africa Travel</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Preview</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Destinations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Maps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Feedback</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+</section>
 
 
 <!--image slider-->
@@ -63,33 +63,34 @@ data-target="#navbarResponsive">
 
 
 
+
 <!-- destinations-->
-<section id="destinations" class="container-fluid section-container">
-   <div class="row">
-      <div class="col-md-12 bg-color-destinations section-column">
-         <div class="row">
-            <div class="col jumbotron">
-               <h3 class="section-heading uppercase text-center">Top Travel Destinations</h3>
-               <h4 class="text-center">Get Inspired</h4>
-               <p class="text-center">Welcome! </p>
-               <p> East Africa Travel is delighted to get you practical information to inspire your next trip.</p>
-                  <p>Check out our <strong>preview stories</strong> and be <span>inspired</span> to tour <span>East Africa </span></p>
-            </div>
+<section id="previews" class="previews container">
+   
+      
+         <div class="previews-header">
+            
+               <h1 class="previews-header-heading">Top Travel Destinations</h1>
+               
+               <p class="previews-header-desc">
+                  East Africa Travel is delighted to get you practical information to inspire your next trip.
+                  Check out our <strong>preview stories</strong> and be <span>inspired</span> to tour <span>East Africa </span></p>
+            
          </div>
 
 
-         <div class="row">
-            <div class="col-xs-12 mx-auto col-sm-6 col-md-4">
-               <div class="flip-card">
-                  <div class="flip-card-inner">
-                     <div class="flip-card-front">
-                        <img src="assets/images/flipimage-1.jpg" alt="" style="width:360px;height:380px;"> 
+         
+            <div class="previews-info">
+               <div class="preview">
+                  <div class="preview-card">
+                     <div class="preview-front">
+                        <img src="assets/images/flipimage-1.jpg" alt="" style="width:360px;height:480px;">  
                         
                      </div>
-                     <div class="flip-card-back">
-                        <h1>kenya preview</h1>
+                     <div class="preview-back">
+                        <h1 class="preview-back-heading">kenya preview</h1>
                         <hr>
-                        <p>Experience the great wildebeest migration in the Maasai Mara on air or Road Safari
+                        <p class="preview-back-desc">Experience the great wildebeest migration in the Maasai Mara on air or Road Safari
                         A popular sight to be observed between the months of July and October is the annual 
                         migration of wildebeest, zebra, and Thomson’s gazelle to and from the Serengeti. Leopards,
                         lions and cheetahs can also be observed in the area. The untouched landscape is perfect 
@@ -100,61 +101,57 @@ data-target="#navbarResponsive">
                      </div>
                   </div>
                </div>
-            </div>
-            
 
-            <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-               <div class="flip-card">
-                  <div class="flip-card-inner">
-                     <div class="flip-card-front">
-                     <img src="assets/images/flipimage-2.jpg" alt="" style="width:360px;height:380px;">
-                        </div>
-                     <div class="flip-card-back">
-                        <h1>uganda preview</h1>
+               <div class="preview">
+                  <div class="preview-card">
+                     <div class="preview-front">
+                        <img src="assets/images/flipimage-2.jpg" alt="" style="width:360px;height:480px;"> 
+                        
+                     </div>
+                     <div class="preview-back">
+                        <h1 class="preview-back-heading">uganda preview</h1>
                         <hr>
-                        <p>Like a pearl, Uganda is small but precious – its luster is the bright greens of Africa’s highest
+                        <p class="preview-back-desc">Like a pearl, Uganda is small but precious – its luster is the bright greens of Africa’s highest
                          mountains, spectacular waterfalls, thick forests, and dramatic valleys. But the beating heart of 
                          Uganda is its parks – the best locations for trekking to and viewing the rare mountain gorilla 
                          which makes up almost half of all the mountain gorillas in the world</p>
-                        <p>But Uganda is not all monkey business, at reserves like Kibale Forest and Queen Elizabeth 
+                        <p class="preview-back-desc">But Uganda is not all monkey business, at reserves like Kibale Forest and Queen Elizabeth 
                         Park you’ll experience animals usually seen on the savannah such as giraffes, lions, buffaloes, 
                         and elephants</p>
+                        
                      </div>
                   </div>
                </div>
-            </div>
-            </div>
-            
 
-            <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-               <div class="flip-card">
-                  <div class="flip-card-inner">
-                     <div class="flip-card-front">
-                        <img src="assets/images/flipimage-3.jpg" alt="" style="width:360px;height:380px;">
+               <div class="preview">
+                  <div class="preview-card">
+                     <div class="preview-front">
+                         <img src="assets/images/flipimage-3.jpg" alt="" style="width:360px;height:480px;"> 
+                        
                      </div>
-                     <div class="flip-card-back">
-                        <h1>tanzania preview</h1>
+                     <div class="preview-back">
+                        <h1 class="preview-back-heading">tanzania preview</h1>
                         <hr>
-                        <p>Explore the blue-green marvel of the Ngorongoro Crater, known as the 8th wonder of the world and 
+                        <p class="preview-back-desc">Explore the blue-green marvel of the Ngorongoro Crater, known as the 8th wonder of the world and 
                         home to 25,000 animals. Visit the alpine rainforests and perharps a canoe safari in Arusha National 
                         Park. Also dont miss out on the elephants over 3000 of them in Tangarine National Park.</p>
 
-                        <p>Ecerything about Tanzania is epic, snow-caped Mt. Kilimanjaro, the tallest peak in Africa.</p>
+                        <p class="preview-back-desc">Ecerything about Tanzania is epic, snow-caped Mt. Kilimanjaro, the tallest peak in Africa.</p>
+                        
                      </div>
                   </div>
                </div>
-            </div>
-         </div>
-         </div>
-         
+               </div>
+            
+            
 
-
-      </div>
-   </div>
+            
+      
+   
    <!-- end of destinations--> 
 </section> 
+    
+   
 
 
    
@@ -188,7 +185,7 @@ data-target="#navbarResponsive">
 <footer class="section">
 </footer>
 
-<script>
+<!-- <script>
     function initMap() {
         var map = new google.maps.Map(document.getElementById("map"), {
             zoom: 3,
@@ -198,7 +195,7 @@ data-target="#navbarResponsive">
             }
         });
     }
-</script>
+</script> -->
 
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 

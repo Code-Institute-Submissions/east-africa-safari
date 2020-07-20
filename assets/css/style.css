@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-*{box-sizing: border-box;
+*{
+    box-sizing: border-box;
 }
 
 html, body {
@@ -15,23 +16,20 @@ header {
     min-height: 100vh;
 }
 
-.row-table {
-    display: table;
-}
+ 
 
 h1 {
     text-transform: capitalize;
 }
 
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
 
-section-heading {
-    margin-top: 25px;
-    margin-bottom: 25px;
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #home,
@@ -42,17 +40,15 @@ section-heading {
 }
 
 
-.nav-link {
-    font-size: 20px;
-}
+.carousel_slider img {
+ height: 100vh;
 
-img {
-   max-width: 100%;
-   
+
 }
 
 .carousel_slider {
     position: relative;
+    
 
 }
 .carousel_slider .slick-next {
@@ -108,70 +104,97 @@ border-radius: 50%;
 }
 
 
-.section-container {
-    display: block;
-    justify-content: center;
+ 
+.previews {
+    flex-direction: column;
+    min-height: 60vh;
+    padding: 5rem 5rem;
+}
+
+.previews .previews-header {
+    width: 100%;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
-
-.section-container .row {
-    margin: 0 auto;
+.previews .previews-header .previews-header-heading {
+    font-size: 3rem;
+    /* font-family: */
+    letter-spacing: 2px;
 }
 
+.previews .previews-header .previews-header-desc {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 10px;
+}
 
-.flip-card {
+.previews .previews-info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+  .previews .previews-info .preview {
+    width: 100%;
+    min-height: 500px;
     position: relative;
-    background-color: transparent;
-    width: 360px;
-    height: 380px;
-    perspective: 1000px;  
-    margin-bottom: 50px;  
+    transition: .3s ease transform; 
+    margin: 5px; 
 }
 
-.flip-card-inner {
+ .previews .previews-info .preview .preview-card {
     position: absolute;
     width: 100%;
     height: 100%;
-    text-align: center;
-    transition: 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
+    transform-style: preserve-3d;   
+    transition: .3s ease transform;
+    display: block;  
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+ }
 
-    .flip-card:hover .flip-card-inner {
+    .previews .previews-info .preview .preview-card .preview-front,
+    .previews .previews-info .preview .preview-card .preview-back {
+     position: absolute;
+     left:0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     backface-visibility: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: rgba(0,0,0,0.13);
+     padding: 10px;
+     }
+
+    .previews .previews-info .preview .preview-card .preview-back {
         transform: rotateY(180deg);
     }
 
-    .flip-card-front, .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-    }
-
-    .flip-card-front {
-        background-image:url("assets/images/flipimage-1.jpg");
-        color:#222;
-    }
-
-    .flip-card-back {
-        background-color: #2980b9;
-        color: #fff;
+    .previews .previews-info .preview:hover .preview-card {
         transform: rotateY(180deg);
-        width: 400px;
-        height: 420px;
-        padding: 0 20px 0 20px;
-    }
-    hr {
-        border: 1px solid #fff;
-        width: 50%;
-    }
+    } 
 
-   
+   .previews .previews-info .preview .preview-card .preview-back .preview-back-heading {
+    font-size: 2rem;
+    /* font-family: */
+    letter-spacing: 2px;
+   }
+
+   .previews .previews-info .preview .preview-card .preview-back .preview-back-desc {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align:center;
+  
+   }
+
+ 
+
+    
+  
 
    
 
