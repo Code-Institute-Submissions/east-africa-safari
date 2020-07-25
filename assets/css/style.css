@@ -135,6 +135,8 @@ border-radius: 50%;
 .previews .previews-header {
     width: 100%;
     text-align: center;
+    align-items: flex-start;
+   
 }
 
 .previews .previews-header .previews-header-heading {
@@ -146,7 +148,8 @@ border-radius: 50%;
 .previews .previews-header .previews-header-desc {
     font-size: 1.3rem;
     line-height: 2rem;
-    margin-top: 10px;
+    margin-top: 5px;
+    color: blue;
 }
 
 .previews .previews-info {
@@ -214,11 +217,76 @@ border-radius: 50%;
   
    }
 
+   
+
+   .destinations {
+    
+     min-height: 60vh;
+     padding: 5rem 5rem;
+     overflow: hidden;
+       
+             
+    }
+
+   .tab-bar {
+       display:flex;
+       border-bottom: 1px solid #ccc;
+       
+       
+   }
+
+   .destination .tab-bar button {
+
+   }
+
+   .card img {
+       width: 100%;
+       height: 200px;
+       object-fit: cover;
+   }
+
+   .content {
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    margin: 2% auto;
+    /* position: absolute;
+    transform: translateX(100%);  */
+    }
+
+    .card {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+    .card {
+    background-color: white;
+    border-radius: 8px 8px 0 0; 
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    height:520px;
+        }
+
+    .card .card-title {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
+    .card p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+
    @media only screen and (min-width:768px) {
-       .previews .previews-header .services-header-desc {
-           max-width: 500px;
-           /* margin: 0 auto; */
-           }
+    
+  
+
+        /* .previews .previews-header .previews-header-desc {
+           flex-direction: column;
+           width: 100%;              
+           } */
+
         .previews .previews-info {
            flex-direction: row;
            width: 100%;
@@ -229,6 +297,7 @@ border-radius: 50%;
             position: relative;
             transition: .3s ease transform; 
             }
+   }
 
     /* .previews .previews-info .preview .preview-card .preview-front,
     .previews .previews-info .preview .preview-card .preview-back {
