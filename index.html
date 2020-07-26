@@ -152,12 +152,12 @@
 <section id="destinations" class="destinations">
 <h2></h2>
 <div class="tab-bar">
-<button id="btn-1">Kenya</button>
-<button id="btn-2">Uganda</button>
-<button id="btn-3">Tanzania</button>
+<button id="btn1" onclick="openKenya()">Kenya</button>
+<button id="btn2" onclick="openUganda()">Uganda</button>
+<button id="btn3" onclick="openTanzania()">Tanzania</button>
 </div>
 
-<div id="kenya" class="content">
+<div id="content1" class="content">
       <div class="card">
         <img src="assets/images/item-1.jpg">
         <h1 class="card-title">maasai mara national reserve</h1>
@@ -187,7 +187,7 @@
       </div>      
     </div>
 
-    <div id="uganda" class="content">
+    <div id="content2" class="content">
       <div class="card">
         <img src="assets/images/item-2.jpg">
         <h1 class="card-title">bwindi impenetrable national park</h1>
@@ -216,7 +216,7 @@
         </p>
           <button>kenya</button>
       </div>      
-    </div><div id="tanzania" class="content">
+    </div><div id="content3" class="content">
       <div class="card">
         <img src="assets/images/item-9.jpg">
         <h1 class="card-title">tangarine national park</h1>
@@ -284,7 +284,7 @@
 <footer class="section">
 </footer>
 
-<!-- <script>
+<script>
     function initMap() {
         var map = new google.maps.Map(document.getElementById("map"), {
             zoom: 3,
@@ -294,7 +294,32 @@
             }
         });
     }
-</script> -->
+</script> 
+
+<script>
+var content1 = document.getElementById("content1");
+var content2 = document.getElementById("content2");
+var content3 = document.getElementById("content3");
+var btn1 = document.getElementById("btn1");
+var btn2 = document.getElementById("btn2");
+var btn3 = document.getElementById("btn3");
+
+function openKenya() {
+    content1.style.transform="translateX(0)";
+    content2.style.transform="translateX(100%)";
+    content3.style.transform="translateX(100%)";
+}
+function openUganda() {
+    content1.style.transform="translateX(100%)";
+    content2.style.transform="translateX(0)";
+    content3.style.transform="translateX(100%)";
+}
+function openTanzania() {
+    content1.style.transform="translateX(100%)";
+    content2.style.transform="translateX(100%)";
+    content3.style.transform="translateX(0)";
+}
+</script>
 
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
@@ -312,7 +337,7 @@ $('.carousel_slider').slick({
  slidesToShow: 1
     });
   }); 
- <!-- </script>  -->
+  </script>  
 
    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
     </script>

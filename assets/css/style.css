@@ -220,8 +220,9 @@ border-radius: 50%;
    
 
    .destinations {
-    
-     min-height: 60vh;
+     /* width: 80%; */
+     min-height: 60px;
+     position: relative;
      padding: 5rem 5rem;
      overflow: hidden;
        
@@ -250,8 +251,8 @@ border-radius: 50%;
     justify-content: center;
     text-align: center;
     margin: 2% auto;
-    /* position: absolute;
-    transform: translateX(100%);  */
+    position: absolute;
+    transform: translateX(100%);  
     }
 
     .card {
@@ -275,6 +276,10 @@ border-radius: 50%;
     .card p {
         font-size: 1rem;
         padding: 0 10px;
+    }
+
+    #content1 {
+        transform: translateX(0px);
     }
 
 
