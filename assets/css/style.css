@@ -289,6 +289,21 @@ border-radius: 50%;
         transform: translateX(0px);
     }
 
+     .map {
+        width: 90%; 
+        height: 100vh;
+        margin: 0 auto;
+        padding: 5rem 10rem;
+
+       
+        }
+
+    .title {
+            display: flex;
+            
+        }
+
+
 
    @media only screen and (min-width:768px) {
     
