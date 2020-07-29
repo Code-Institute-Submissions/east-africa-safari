@@ -269,37 +269,48 @@
 
 
 <!--map-->
-<section id="explore" class="map">
-<div class="title">
+<section id="explore" class="explore">
+<div class="map-header">
 <h2>view map</h2>
 </div>
-<div id="map">
+<div class="map-container"> 
+<div id="map"></div>
 </div>
 </section>
 
 
 <!--feedback-->
-<section id="feedback" class="section">
-<div class="title">
-<h2>feedback</h2>
+<section id="feedback" class="feedback">
+<div class="form-header">
+<h2>Subscribe to our newsletter</h2>
 </div>
+<div class="form-body">
+<p>Email</p>
+<input type="text" name = "" placeholder="Enter Email">
+<p>Password</p>
+<input type="password" name= "" placeholder="Enter Password">
+<input type="submit" name="" value="Subscribe">
+</div>
+
+
 </section>
 
 <!--footer-->
 <footer class="section">
 </footer>
 
-<script>
+ <script>
+
     function initMap() {
         var map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 3,
+            zoom: 6,
             center: {
-                lat: 46.619261,
-                lng: -33.134766
+                lat: 0.1768696,
+                lng: 37.9083264
             }
         });
     }
-</script> 
+</script>  
 
 <script>
 var content1 = document.getElementById("content1");
