@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 *{
     box-sizing: border-box;
@@ -41,6 +42,7 @@ html, body {
 h1, h2 {
     font-family: 'Acme', sans-serif;
 }
+
 
 
 .container {
@@ -294,11 +296,11 @@ border-radius: 50%;
         padding: 0 10px;
     }
 
-    #content1 {
+        #content1 {
         transform: translateX(0px);
     }
 
-     .explore {
+        .explore {
         width: 90%; 
         min-height: 100vh;
         margin: 0 auto;
@@ -309,7 +311,7 @@ border-radius: 50%;
 
        
         
-      #map {
+        #map {
             height: 70vh !important;
             width: 80%;
             border: 5px solid #528FCB;
@@ -326,32 +328,81 @@ border-radius: 50%;
         }
 
         .feedback {
-            position: relative;
-            width: 90%;
-            height: 100vh;
-            padding: 8rem 4rem;
-            margin: 0 auto;
-
+        width: 90%; 
+        min-height: 100vh;
+        margin: 0 auto;
+        padding: 10rem 5rem 5rem 5rem; 
+        
+                       
         }
+            
 
-        .form-header {
-            display: flex;
+        
+
+        .feedback-header {
+            display:flex;
             justify-content: center;
             align-items: center;
+            border-bottom: 1px solid rgb(167, 151, 151);
+            margin-bottom: 3rem;  
         }
 
-        .form-body {
+        .form-content {
             display: flex;
-            flex-direction: column;
             justify-content: center;
-            text-align: center;
-            width: 300px;
-            height: 300px;
-            margin: 0 auto;
-            background: rgba(0,0,0,0.1);
+            background-color: rgba(52, 149, 245, 0.486);
+            box-shadow: 0 4px 5px rgba(53, 27, 27, 0.692);  
+        }
+    
+
+        input {
+            height: 40px;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #fff;
+            border: none;
+            width: 100%
+            /* border-bottom: solid #528FCB; */
+        }
+        #message {
+            padding: 50px 20px;
+            font-size: 1rem;
+            color: #000;
+            width: 100%;
+        }
+
+        
+        form {
+            flex-basis: 45%;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(53, 27, 27, 0.692); 
 
         }
 
+        .form-img {
+            flex-basis: 45%;
+            box-shadow: 0 10px 10px rgba(53, 27, 27, 0.692);
+            width: 100%;
+            text-align: center;  
+        }
+
+        .form-img img {
+            width: 100%;
+            height: 310px;
+                    
+        }
+
+          .form-img  p {
+            font-family: 'Cinzel', sans-serif;
+                    
+        }
+
+
+      
+
+       
 
 
 
