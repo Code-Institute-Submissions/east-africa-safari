@@ -41,6 +41,7 @@ html, body {
 
 h1, h2 {
     font-family: 'Acme', sans-serif;
+    color: #03045E;
 }
 
 
@@ -152,7 +153,7 @@ border-radius: 50%;
     font-size: 1.3rem;
     line-height: 2rem;
     margin-top: 5px;
-    color: blue;
+    color:  #528FCB;
 }
 
 .previews .previews-info {
@@ -194,7 +195,7 @@ border-radius: 50%;
      flex-direction: column;
      align-items: center;
      border-radius: 7px;
-     background-color: rgba(0,0,0,0.13);
+     background-color: #BBB8B2;
      box-shadow: 0 4px 8px 0 rgba(53, 27, 27, 0.692); 
      padding: 10px;
      }
@@ -212,19 +213,21 @@ border-radius: 50%;
     font-family: 'Acme', sans-serif;
     letter-spacing: 2px;
     text-transform: capitalize;
+    color: #03045E;
    }
 
    .previews .previews-info .preview .preview-card .preview-back .preview-back-desc {
     font-size: 1.1rem;
     line-height: 1.5rem;
     text-align:center;
+    color:#03045E;
   
    }
 
    
 
    .destinations {
-     width: 90%; 
+     width: 95%; 
      min-height: 100vh;
      position: relative;
      padding: 7rem  5rem 10rem 10rem;
@@ -283,7 +286,7 @@ border-radius: 50%;
     border-radius: 8px 8px 0 0; 
     box-shadow: 0 2px 20px rgba(0,0,0,0.1);
     overflow: hidden;
-    height: 540px;
+    height: 580px;
         }
 
     .card .card-title {
@@ -350,7 +353,8 @@ border-radius: 50%;
         .form-content {
             display: flex;
             justify-content: center;
-            background-color: rgba(52, 149, 245, 0.486);
+            background-color: #BBB8B2;
+            /* background-color: rgba(52, 149, 245, 0.486); */
             box-shadow: 0 4px 5px rgba(53, 27, 27, 0.692);  
         }
     
@@ -358,17 +362,28 @@ border-radius: 50%;
         input {
             height: 40px;
             border-radius: 5px;
-            padding: 10px 20px;
+            padding: 10px 80px;
             font-size: 1rem;
+            outline: none;
             background-color: #fff;
             border: none;
             width: 100%
-            /* border-bottom: solid #528FCB; */
+           
+        }
+
+        #send:hover {
+            background-color: rgba(52, 149, 245, 0.308);
+            border: 2px solid #fff;
+            color:  #fff;
+            font-family:'Acme', sans-serif;
+            font-size: 1.3rem;
+            
+           
         }
         #message {
-            padding: 50px 20px;
+            padding: 50px 80px;
             font-size: 1rem;
-            color: #000;
+            color: #03045E;
             width: 100%;
         }
 
@@ -395,7 +410,10 @@ border-radius: 50%;
         }
 
           .form-img  p {
-            font-family: 'Cinzel', sans-serif;
+            font-family: 'Acme', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 4px;
+            color: #03045E
                     
         }
 
