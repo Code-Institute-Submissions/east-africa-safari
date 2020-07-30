@@ -74,7 +74,7 @@
       
          <div class="previews-header">
             
-               <h1 class="previews-header-heading">Preview Stories</h1>
+               <h1 class="previews-header-heading underline">Preview Stories</h1>
                
                <p class="previews-header-desc">
                   East Africa Travel is delighted to get you practical information to inspire your next trip.<br>
@@ -92,8 +92,8 @@
                         
                      </div>
                      <div class="preview-back">
-                        <h1 class="preview-back-heading">kenya preview</h1>
-                        <hr>
+                        <h1 class="preview-back-heading underline">kenya preview</h1>
+                      
                         <p class="preview-back-desc">Experience the great wildebeest migration in the Maasai Mara on air or Road Safari
                         A popular sight to be observed between the months of July and October is the annual 
                         migration of wildebeest, zebra, and Thomson’s gazelle to and from the Serengeti. Leopards,
@@ -113,11 +113,11 @@
                         
                      </div>
                      <div class="preview-back">
-                        <h1 class="preview-back-heading">uganda preview</h1>
-                        <hr>
-                        <p class="preview-back-desc">Like a pearl, Uganda is small but precious – its luster is the bright greens of Africa’s highest
+                        <h1 class="preview-back-heading underline">uganda preview</h1>
+                        <!-- <hr> -->
+                        <p class="preview-back-desc">Like a pearl, Uganda is small but <br>precious, Its luster is the bright greens of Africa’s highest
                          mountains, spectacular waterfalls, thick forests, and dramatic valleys. But the beating heart of 
-                         Uganda is its parks – the best locations for trekking to and viewing the rare mountain gorilla 
+                         Uganda is its parks, the best locations for trekking to and viewing the rare mountain gorilla 
                          which makes up almost half of all the mountain gorillas in the world</p>
                         <p class="preview-back-desc">But Uganda is not all monkey business, at reserves like Kibale Forest and Queen Elizabeth 
                         Park you’ll experience animals usually seen on the savannah such as giraffes, lions, buffaloes, 
@@ -134,13 +134,13 @@
                         
                      </div>
                      <div class="preview-back">
-                        <h1 class="preview-back-heading">tanzania preview</h1>
-                        <hr>
+                        <h1 class="preview-back-heading underline">tanzania preview</h1>
+                        <!-- <hr> -->
                         <p class="preview-back-desc">Explore the blue-green marvel of the Ngorongoro Crater, known as the 8th wonder of the world and 
                         home to 25,000 animals. Visit the alpine rainforests and perharps a canoe safari in Arusha National 
                         Park. Also dont miss out on the elephants over 3000 of them in Tangarine National Park.</p>
 
-                        <p class="preview-back-desc">Ecerything about Tanzania is epic, snow-caped Mt. Kilimanjaro, the tallest peak in Africa.</p>
+                        <p class="preview-back-desc">Everything about Tanzania is epic, <br>snow-caped Mt. Kilimanjaro, the tallest peak in Africa.</p>
                         
                      </div>
                   </div>
@@ -151,13 +151,13 @@
 
 <section id="destinations" class="destinations">
 <div class="destinations-title">
-<h2 class="destinations-title-heading"> Top Travel Destinations</h2>
+<h2 class="destinations-title-heading underline"> Top Travel Destinations</h2>
 </div>
 
 <div class="tab-bar">
-<button id="btn1" onclick="openKenya()">Kenya</button>
-<button id="btn2" onclick="openUganda()">Uganda</button>
-<button id="btn3" onclick="openTanzania()">Tanzania</button>
+<button id="btn1" class="btn" onclick="openKenya()">Kenya</button>
+<button id="btn2" class="btn" onclick="openUganda()">Uganda</button>
+<button id="btn3" class="btn" onclick="openTanzania()">Tanzania</button>
 </div>
 
 <div id="content1" class="content">
@@ -175,7 +175,8 @@
         <h1 class="card-title">hell's gate national park</h1>
         <p> A small national park, it is known for its wide variety of wildlife and for its scenery. 
          However, the park has historically been an important home for the rare lammergeyer vultures. 
-         There are over 103 species of birds in the park, including vultures, Verreaux's eagles, augur buzzard, and swifts. 
+         ittle seen wildlife include lions, leopards, and cheetahs.
+         There are over 103 species of birds in the park, including, Verreaux's eagles, augur buzzard, and swifts. 
          The park is also home to several and small numbers of klipspringer antelope and Chanler's mountain reedbuck.</p>
           <button>kenya</button>
       </div>
@@ -215,7 +216,7 @@
         <p>The Ruwenzori, are a range of mountains in eastern equatorial Africa, located on the border between Uganda and
         the Democratic Republic of the Congo.  Rivers fed by mountain streams form one of the sources of the 
         Nile, during the European exploration of Africa, the Ruwenzori came to be identified with the 
-        legendary Mountains of the Moon, identified by the Greek scholar Ptolemy as the source of the Nile.
+        legendary Mountains of the Moon, identified by the Greek scholar Ptolemy as the source of the River Nile.
         </p>
           <button>kenya</button>
       </div>      
@@ -271,7 +272,7 @@
 <!--map-->
 <section id="explore" class="explore">
 <div class="map-header">
-<h2>view map</h2>
+<h2 class="underline">view map</h2>
 </div>
 <div  id="map" class="map-container"> 
 
@@ -284,13 +285,35 @@
 
 
 <div class="feedback-header">
-<h2 class="underline">Feedback Form</h2>
+<h2>Feedback Form</h2>
 <hr>
 </div>
 
 
 <div class="form-content">
-<form>
+
+  
+  <form action="/action_page.php">
+
+  <h2>Vertical (basic) form</h2>
+    <div class="form-group">
+      <label for="email">Fullname:</label>
+      <input type="email" class="form-control" id="fullname" placeholder="Enter Your name" name="fullname" required><br>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="email" placeholder="Email Address"  name="email" required><br>           
+    </div>
+    <div class="form-group">
+      <label for="pwd">Message:</label>
+      <input type="message" class="form-control" id="message" placeholder="Message"  name="message" required><br>           
+    </div>
+    
+    
+    <button type="submit"  id="submit"  class="btn btn-default" style="width:100%;">Submit</button>
+  </form>
+
+<!-- <form>
 <label>Fullname<br>
 <input type="text" id="text" placeholder="Enter Your name" required></label><br>
 <label>Email<br>
@@ -301,8 +324,8 @@
 <input type="text" id="message" placeholder="Message" required></label><br>
 
 
-<input type="submit" id="send" name="" value="Send">
-</form>
+<input type="submit" id="submit" name="" value="Send">
+</form> -->
 
 <div  class="form-img">
 <p>Please send us your feedback</p>
@@ -342,7 +365,7 @@
             {lat: -0.885566, lng: 36.30621}, //hell's gate national park
             {lat: -0.3666667, lng: 36.0833333}, //rift valley lakes
             {lat: -1.0499998, lng: 29.7166638}, //bwindi impenetrable national park
-            {lat: -0.194444, lng: -29.869167}, //queen elizabeth national park
+            {lat: 51.547080, lng: -0.014000}, //queen elizabeth national park
             {lat:  0.384831794, lng: 29.8696631}, //ruwenzori mountains
             {lat:  -3.833, lng: 36.0}, //tangarine
             {lat:  -2.333333, lng: 34.833332}, //serengeti
@@ -350,15 +373,15 @@
          ];
 
         var contents = [
-         `<h1>Maasai Mara National Park</h1><p><a href="https://www.naturaltoursandsafaris.com/masai-mara-kenya-safari/" target="_blank"></a></p>`,
-         `<h1>Hell's Gate National Park</h1><p><a href="https://en.wikipedia.org/wiki/Hell%27s_Gate_National_Park" target="_blank"></a></p>`,
-         `<h1>Rift Valley Lakes</h1><p><a href="https://en.wikipedia.org/wiki/Rift_Valley_lakes" target="_blank"></a></p>`,
-         `<h1>Bwindi Impenetrable National Park</h1><p><a href="https://en.wikipedia.org/wiki/Bwindi_Impenetrable_National_Park" target="_blank"></a></p>`,
-         `<h1>Queen Elizabeth National Park</h1><p><a href="https://en.wikipedia.org/wiki/Queen_Elizabeth_National_Park" target="_blank"></a></p>`,
-         `<h1>Ruwenzori Mountains</h1><p><a href="https://en.wikipedia.org/wiki/Rwenzori_Mountains" target="_blank"></a></p>`,
-         `<h1>Tangarine National Park</h1><p><a href="https://en.wikipedia.org/wiki/Tarangire_National_Park" target="_blank"></a></p>`,
-         `<h1>Serengeti National park</h1><p><a href="https://en.wikipedia.org/wiki/Serengeti_National_Park" target="_blank"></a></p>`,
-         `<h1>Ngorongoro Crater</h1><p><a href="https://en.wikipedia.org/wiki/Ngorongoro_Conservation_Area" target="_blank"></a></p>`,
+         `<h3>Maasai Mara National Park</h3>`,
+         `<h3>Hell's Gate National Park</h3>`,
+         `<h3>Rift Valley Lakes</h3>`,
+         `<h3>Bwindi Impenetrable National Park</h3>`,
+         `<h3>Queen Elizabeth National Park</h3>`,
+         `<h3>Ruwenzori Mountains</h3>`,
+         `<h3>Tangarine National Park</h3>`,
+         `<h3>Serengeti National park</h3>`,
+         `<h3>Ngorongoro Crater</h3>`,
          ];
 
           function initMap() {
@@ -391,31 +414,21 @@ function createMarker(destinationLocation, destinationContent) {
        infowindow.setContent(destinationContent);
        infowindow.open(map, this);
     });
-}
-
-    //
-  
-
-
-
-    
-        
-    
-    
-
-        
-        
- 
-     
-
-
-
-   
-    
-   
-
-    
+}   
 </script>  
+
+<script>
+const header = document.querySelector('.header.container');
+
+document.addEventListener('scroll', () => {
+    var scroll_position = window.scrollY;
+    if(scroll_position > 250){
+        header.style.BackgroundColor = "#03045E";
+    }else{
+        header.style.BackgroundColor = "transparent";
+    }
+});
+</script>
 
 <script>
 var content1 = document.getElementById("content1");

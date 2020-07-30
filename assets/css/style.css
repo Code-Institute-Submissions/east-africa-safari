@@ -128,12 +128,18 @@ border-radius: 50%;
     display: none;
 }
 
+.underline {
+    border: none;
+    border-bottom: 1px solid #03045E;
+    z-index: 1000;
+}
+
 
  
 .previews {
     flex-direction: column;
     min-height: 60vh;
-    padding: 5rem 5rem;
+    padding: 5rem 5rem; 
 }
 
 .previews .previews-header {
@@ -153,7 +159,7 @@ border-radius: 50%;
 .previews .previews-header .previews-header-desc {
     font-size: 1.2rem;
     line-height: 2rem;
-    margin-top: 5px;
+    margin-bottom: 5px;
     color: #03045E;
 }
 
@@ -213,6 +219,7 @@ border-radius: 50%;
     font-size: 2rem;
     font-family: 'Acme', sans-serif;
     letter-spacing: 2px;
+     margin-bottom: 0;
     text-transform: capitalize;
     color: #03045E;
    }
@@ -221,6 +228,7 @@ border-radius: 50%;
     font-size: 1.1rem;
     line-height: 1.5rem;
     text-align:center;
+    padding: 5px 0 0 0;
     color:#03045E;
   
    }
@@ -228,11 +236,11 @@ border-radius: 50%;
    
 
    .destinations {
-     width: 95%; 
+     width: 90%; 
      min-height: 100vh;
      position: relative;
-     padding: 7rem  5rem 10rem 10rem;
      overflow: hidden;
+     margin: 0 auto;
        
              
     }
@@ -258,7 +266,12 @@ border-radius: 50%;
        
    }
 
-   .destination .tab-bar button {
+    #btn1,
+    #btn3,
+    #btn2 {
+        width: 10%;
+        background-color: transparent;
+        outline: none;
 
    }
 
@@ -333,11 +346,9 @@ border-radius: 50%;
 
         .feedback {
         width: 90%; 
-        min-height: 100vh;
+        min-height: 60vh !important;
         margin: 0 auto;
-        padding: 10rem 5rem 5rem 5rem; 
-        
-                       
+        padding: 5rem 5rem 5rem 5rem;                           
         }
             
 
@@ -356,43 +367,47 @@ border-radius: 50%;
             justify-content: center;
             background-color: #BBB8B2;
             /* background-color: rgba(52, 149, 245, 0.486); */
-            box-shadow: 0 4px 5px rgba(53, 27, 27, 0.692);  
+            box-shadow: 0 4px 5px rgba(53, 27, 27, 0.692);
+            margin-bottom: 10px;  
         }
-    
+
+          
 
         input {
             height: 40px;
             border-radius: 5px;
-            padding: 10px 80px;
             font-size: 1rem;
             outline: none;
-            background-color:  #fff;
+            background-color:  #ccc;
             border: none;
             transition: .3s ease-in-out;
-            width: 100%;
-           
+            width: 100%;           
         }
 
-        #send {
+        .form-group {
+            margin-bottom: 0;
+        }
+
+        #submit {
             background-color: #03045E !important;
             color:  #fff;
         }
 
-        #send:hover {
+        #submit:hover {
             background-color:  transparent !important;
             border: 2px solid #fff;
             color:  #03045E;
             font-family:'Acme', sans-serif;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             
            
         }
-        #message {
-            padding: 50px 80px;
+         #message {
             font-size: 1rem;
             color: #03045E;
+            height: 100px;
             width: 100%;
-        }
+        } 
 
         
         form {
@@ -401,6 +416,15 @@ border-radius: 50%;
             align-items: center;
             box-shadow: 0 0 10px rgba(53, 27, 27, 0.692); 
 
+        }
+
+        form input {
+            width: 100%;
+        }
+
+        form h2 {
+            font-size: 1.5rem;
+            margin-top: 4px;
         }
 
         .form-img {
@@ -412,7 +436,7 @@ border-radius: 50%;
 
         .form-img img {
             width: 100%;
-            height: 310px;
+            height: 350px;
                     
         }
 
@@ -450,7 +474,8 @@ border-radius: 50%;
             position: relative;
             transition: .3s ease transform; 
             }
-   }
+
+   }   
 
     /* .previews .previews-info .preview .preview-card .preview-front,
     .previews .previews-info .preview .preview-card .preview-back {
@@ -470,7 +495,18 @@ border-radius: 50%;
 
       */
    
+ @media only screen and (max-width:768px) {
+        .content {
+            display: flex;
+            flex-direction: column;
 
+   }
+
+   .form-content {
+            display: flex;
+            flex-direction: column;
+
+ }
  
 
     
