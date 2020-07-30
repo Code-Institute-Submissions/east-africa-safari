@@ -323,15 +323,98 @@
 
  <script>
 
-    function initMap() {
-        var map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 6,
-            center: {
-                lat: 0.1768696,
-                lng: 37.9083264
-            }
-        });
+        var map;
+        var infoWindow;
+
+
+
+    // function initMap() {
+    //      var map = new google.maps.Map(document.getElementById("map"), {
+    //          zoom: 6,
+    //          center: {
+    //              lat: 0.1768696,
+    //              lng: 37.9083264
+    //          }
+    //      });
+
+         var locations = [
+            {lat: -1.4065513, lng: 34.906551}, 
+            {lat: -0.885566, lng: 36.30621}, //hell's gate national park
+            {lat: -0.3666667, lng: 36.0833333}, //rift valley lakes
+            {lat: -1.0499998, lng: 29.7166638}, //bwindi impenetrable national park
+            {lat: -0.194444, lng: -29.869167}, //queen elizabeth national park
+            {lat:  0.384831794, lng: 29.8696631}, //ruwenzori mountains
+            {lat:  -3.833, lng: 36.0}, //tangarine
+            {lat:  -2.333333, lng: 34.833332}, //serengeti
+            {lat:  -3.23973, lng: 35.48747} //ngorongoro
+         ];
+
+        var contents = [
+         `<h1>Maasai Mara National Park</h1><p><a href="https://www.naturaltoursandsafaris.com/masai-mara-kenya-safari/" target="_blank"></a></p>`,
+         `<h1>Hell's Gate National Park</h1><p><a href="https://en.wikipedia.org/wiki/Hell%27s_Gate_National_Park" target="_blank"></a></p>`,
+         `<h1>Rift Valley Lakes</h1><p><a href="https://en.wikipedia.org/wiki/Rift_Valley_lakes" target="_blank"></a></p>`,
+         `<h1>Bwindi Impenetrable National Park</h1><p><a href="https://en.wikipedia.org/wiki/Bwindi_Impenetrable_National_Park" target="_blank"></a></p>`,
+         `<h1>Queen Elizabeth National Park</h1><p><a href="https://en.wikipedia.org/wiki/Queen_Elizabeth_National_Park" target="_blank"></a></p>`,
+         `<h1>Ruwenzori Mountains</h1><p><a href="https://en.wikipedia.org/wiki/Rwenzori_Mountains" target="_blank"></a></p>`,
+         `<h1>Tangarine National Park</h1><p><a href="https://en.wikipedia.org/wiki/Tarangire_National_Park" target="_blank"></a></p>`,
+         `<h1>Serengeti National park</h1><p><a href="https://en.wikipedia.org/wiki/Serengeti_National_Park" target="_blank"></a></p>`,
+         `<h1>Ngorongoro Crater</h1><p><a href="https://en.wikipedia.org/wiki/Ngorongoro_Conservation_Area" target="_blank"></a></p>`,
+         ];
+
+          function initMap() {
+    //Set the map to center on the North Pacific Gyre
+    var startPosition = locations[0];
+    var centerPoint = {
+        center: startPosition,
+        zoom: 6
+    };
+
+    //
+    map = new google.maps.Map(document.getElementById('map'), centerPoint);
+    infowindow = new google.maps.InfoWindow();
+    for (var i = 0; i < locations.length; i++) {
+        createMarker(locations[i], contents[i]);
     }
+}
+
+    //Function passes locations[i] and contents [i] (from above) as parameters for each gyre marker
+function createMarker(destinationLocation, destinationContent) {
+
+    //Creates marker based on the locations of each gyre
+    var marker = new google.maps.Marker({
+        position: destinationLocation,
+        map: map
+    });
+
+    //Opens info window about specific gyre when clicked
+    marker.addListener('click', function() {
+       infowindow.setContent(destinationContent);
+       infowindow.open(map, this);
+    });
+}
+
+    //
+  
+
+
+
+    
+        
+    
+    
+
+        
+        
+ 
+     
+
+
+
+   
+    
+   
+
+    
 </script>  
 
 <script>

@@ -144,14 +144,14 @@ border-radius: 50%;
 }
 
 .previews .previews-header .previews-header-heading {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     font-family: 'Acme', sans-serif;
     letter-spacing: 2px;
     color:  #03045E;
 }
 
 .previews .previews-header .previews-header-desc {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2rem;
     margin-top: 5px;
     color: #03045E;
@@ -366,17 +366,22 @@ border-radius: 50%;
             padding: 10px 80px;
             font-size: 1rem;
             outline: none;
-            background-color: #fff;
+            background-color:  #fff;
             border: none;
             transition: .3s ease-in-out;
             width: 100%;
            
         }
 
-        #send:hover {
-            background-color:  #03045E;
-            border: 2px solid #fff;
+        #send {
+            background-color: #03045E !important;
             color:  #fff;
+        }
+
+        #send:hover {
+            background-color:  transparent !important;
+            border: 2px solid #fff;
+            color:  #03045E;
             font-family:'Acme', sans-serif;
             font-size: 1.3rem;
             
