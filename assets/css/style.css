@@ -500,13 +500,25 @@ border-radius: 50%;
             display: flex;
             flex-direction: column;
 
-   }
+    }
 
    .form-content {
             display: flex;
             flex-direction: column;
 
- }
+    }
+    .tab-bar {
+       display:flex;
+       text-align: center;
+       margin: 0 auto;
+    }
+
+    #btn1,
+    #btn3,
+    #btn2 {
+        width: 20%;
+        outline: none;
+    }
  
 
     
