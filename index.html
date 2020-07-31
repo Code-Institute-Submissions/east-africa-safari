@@ -296,21 +296,14 @@
   <form action="/action_page.php">
 
   <h2>Form</h2>
-    <div class="form-group">
-      <label for="email">Fullname:</label>
-      <input type="email" class="form-control" id="fullname" placeholder="Enter Your name" name="fullname" required><br>
-    </div>
-    <div class="form-group">
-      <label for="pwd">Email:</label>
-      <input type="password" class="form-control" id="email" placeholder="Email Address"  name="email" required><br>           
-    </div>
-    <div class="form-group">
-      <label for="pwd">Message:</label>
-      <input type="message" class="form-control" id="message" placeholder="Write your message here"  name="message" required><br>           
-    </div>
     
+      <input type="text" class="form-control" id="fullname" placeholder="Enter your name" name="name" required><br>
     
-    <button type="submit"  id="submit"  class="btn btn-default" style="width:100%;">Submit</button>
+      <input type="email" class="form-control" id="emailaddress" placeholder="Email Address"  name="email" required><br>           
+    
+      <textarea rows="5" type="message" class="form-control" id="message" placeholder="Write your message here"  name="message" required></textarea><br>           
+    
+      <button type="submit"  id="submit"  class="btn btn-secondary">Submit</button>
   </form>
 
 

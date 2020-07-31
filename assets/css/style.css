@@ -374,14 +374,13 @@ border-radius: 50%;
           
 
         input {
-            height: 40px;
             border-radius: 5px;
             font-size: 1rem;
             outline: none;
             background-color:  #ccc;
             border: none;
-            transition: .3s ease-in-out;
-            width: 100%;           
+            transition: .3s ease;
+            
         }
 
         .form-group {
@@ -391,6 +390,8 @@ border-radius: 50%;
         #submit {
             background-color: #03045E !important;
             color:  #fff;
+            width: 30%;
+            margin: 0 160px;
         }
 
         #submit:hover {
@@ -398,16 +399,9 @@ border-radius: 50%;
             border: 2px solid #fff;
             color:  #03045E;
             font-family:'Acme', sans-serif;
-            font-size: 1.2rem;
-            
-           
+            font-size: 1.2rem;         
         }
-         #message {
-            font-size: 1rem;
-            color: #03045E;
-            height: 100px;
-            width: 100%;
-        } 
+      
 
         
         form {
@@ -415,12 +409,9 @@ border-radius: 50%;
             justify-content: center;
             align-items: center;
             box-shadow: 0 0 10px rgba(53, 27, 27, 0.692); 
-
         }
 
-        form input {
-            width: 100%;
-        }
+      
 
         form h2 {
             font-size: 1.5rem;
@@ -436,7 +427,7 @@ border-radius: 50%;
 
         .form-img img {
             width: 100%;
-            height: 350px;
+            height: 280px;
                     
         }
 
@@ -444,7 +435,7 @@ border-radius: 50%;
             font-family: 'Acme', sans-serif;
             font-size: 1.5rem;
             margin-bottom: 4px;
-            color: #03045E
+            color: #03045E;
                     
         }
 
