@@ -1,8 +1,14 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome jos-lab,
+# East Africa Safari
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+East Africa Safari is an imagined travel site that I created to inspire and motivate users from accross the globe to tour 
+East Africa having featured top travel destinations in Kenya, Uganda and Tanzania at the moment.
+
+Having completed Javascript Fundamentals and Interactive Front-end Development, Full Stack Web Development Program 
+with Code Institute I developed East Africa Safari website for my Milestone 2 Project, whereby I was to implement 
+and showcase acquired skills, building interactive and responsive website with HTML5, CSS3 and JavaScript as required.
+
 
 ## Gitpod Reminders
 
