@@ -52,9 +52,51 @@ html, body {
     color: #FF6700;
 }
 
- .active, .nav-link a {
-     color: #FF6700;
- }
+.caption h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(110%, 150%);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    color: #fafafa;
+    font-family: 'Acme',sans-serif;
+}
+
+.caption h2 {
+    position: absolute;
+    transform: translate(220%, 350%);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    color: #fafafa;
+    font-family: 'Acme',sans-serif;
+}
+
+.caption .btn {
+    position: absolute;
+    transform: translate(330%, 1200%);
+    z-index: 1;
+    color: #fafafa;
+    font-family: 'Acme',sans-serif;
+    background-color: #03045E;
+    border: 2px solid #03045E;
+    text-transform: capitalize;
+    font-size: 1.2rem; 
+    transition: .3s ease background-color;
+}
+
+.caption .btn:hover {
+    color:#fafafa;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-family: 'Acme',sans-serif;
+
+}
+
+
+
 
  
 
@@ -181,7 +223,7 @@ border-radius: 50%;
 }
 
 .previews .previews-header .previews-header-desc {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 2rem;
     margin-bottom: 5px;
     color: #03045E;
@@ -193,6 +235,7 @@ border-radius: 50%;
     margin-bottom: 5px;
     color: #FF6700;
     font-weight: 600;
+    text-transform: capitalize;
 }
 
 .previews .previews-info {
@@ -355,6 +398,10 @@ border-radius: 50%;
         padding: 0 10px;
     }
 
+    .card a {
+        text-decoration: none;
+    }
+
 
     #content1 {
         transform: translateX(0px);
@@ -420,9 +467,9 @@ border-radius: 50%;
             border-radius: 5px;
             font-size: 1rem;
             outline: none;
-            background-color:  #ccc;
+            background-color: #ccc;
             border: none;
-            transition: .3s ease;
+            
             
         }
 
@@ -435,14 +482,17 @@ border-radius: 50%;
             color:   #C0C0C0;
             width: 30%;
             margin: 0 160px;
+            transition: .3s ease background-color;
+            
         }
 
         .btn-blue:hover {
             background-color:  transparent !important;
-            border: 2px solid #C0C0C0;
+            border: 2px solid #03045E;
             color:  #03045E;
             font-family:'Acme', sans-serif;
-            font-size: 1.2rem;         
+            font-weight: 600;
+                    
         }
       
 
@@ -485,7 +535,7 @@ border-radius: 50%;
         #footer {
             background-color: #03045E;
             color:  #C0C0C0;
-            min-height: 100px;
+            height: 120px;
         }
 
         #footer h5 {
@@ -563,7 +613,7 @@ border-radius: 50%;
         width: 20%;
         outline: none;
     }
- 
+ }
 
     
   

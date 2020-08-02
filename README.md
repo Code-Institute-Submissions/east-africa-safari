@@ -9,8 +9,17 @@ Having completed Javascript Fundamentals and Interactive Front-end Development, 
 with Code Institute I developed East Africa Safari website for my Milestone 2 Project, whereby I was to implement 
 and showcase acquired skills, building interactive and responsive website with HTML5, CSS3 and JavaScript as required.
 
+I have used 2 javaScript APIs in my project, googlemaps API to help users that are looking for travel destinations to 
+locate some in  East Africa. 
 
-## Gitpod Reminders
+As a developer EmailJs will enable me get neccessary feedback and implement where possible, thereby improving the efficiency
+of the website.
+
+As a user seeking to pass information to the developer, EmailJs will facilitate delivery of feedback to the developer and 
+also response to the user.
+
+
+# ux
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
