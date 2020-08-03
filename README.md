@@ -21,24 +21,24 @@ also response to the user.
 
 # ux
 
-- As a developer
+- _As a developer_
     - I have always been attracted to tourist sites and travelling therefore i wanted to begin small and create a travel site
 which will showcase various travel sites in East Africa, I hope to create an interesting site that will motivate more 
 tourists to visit east Africa.
     - I want users to browse with ease my site as they search for travel destinations in East Africa.
-- As a user who likes travelling
+- _As a user who likes travelling_
     - I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
-- As a user who is a tourist
+- _As a user who is a tourist_
     - I am a user who is looking for a travel destinations sites in East Africa. I want to be able to make 
 a choice after visiting the website.
-- As a user who is fascinated by nature
+- _As a user who is fascinated by nature_
     - I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
 worth visitimg the site again, if the site will be captivating.
 
 ## UX Design Processes
 
 ### Strategy Plane
-*Having identified the needs of different users, I needed to develope a site that will give value to both the developer 
+* Having identified the needs of different users, I needed to develope a site that will give value to both the developer 
 and the user. Appropriate use of HTML5, CSS3 and Javascript would help me achieve an interactive site.
 
 ### Scope Plane
