@@ -21,31 +21,31 @@ also response to the user.
 
 # ux
 
-## As a developer
-*I have always been attracted to tourist sites and travelling therefore i wanted to begin small and create a travel site
+- As a developer
+ - I have always been attracted to tourist sites and travelling therefore i wanted to begin small and create a travel site
 which will showcase various travel sites in East Africa, I hope to create an interesting site that will motivate more 
 tourists to visit east Africa.
-*I want users to browse with ease my site as they search for travel destinations in East Africa.
-## As a user who likes travelling
-*I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
-## As a user who is a tourist
-*I am a user who is looking for a travel destinations sites in East Africa. I want to be able to make 
+ - I want users to browse with ease my site as they search for travel destinations in East Africa.
+- As a user who likes travelling
+ - I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
+- As a user who is a tourist
+ - I am a user who is looking for a travel destinations sites in East Africa. I want to be able to make 
 a choice after visiting the website.
-## As a user who is fascinated by nature
-*I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
+- As a user who is fascinated by nature
+ - I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
 worth visitimg the site again, if the site will be captivating.
 
 ## UX Design Processes
 
 ### structure Plane
-*At this stage i organised my data seeing to it that site information is presented well.
-*I started with the navigation bar at the top and footer at the bottom.
-*The navigation bar has links to allow navigation to different areas.
-*The navbar and the footer has same background colors for easy identification.
-*A corousel section to engage the user.
-*A destinations section to invite the user to top destinations section.
-*Previews stories section to inspire the user.
-*Map section to help user see locations in the map.
-*Feedback section for any feedback from the user.
-*With different color variations to keep the user engaged.
+* At this stage i organised my data seeing to it that site information is presented well.
+* I started with the navigation bar at the top and footer at the bottom.
+* The navigation bar has links to allow navigation to different areas.
+* The navbar and the footer has same background colors for easy identification.
+* A corousel section to engage the user.
+* A destinations section to invite the user to top destinations section.
+* Previews stories section to inspire the user.
+* Map section to help user see locations in the map.
+* Feedback section for any feedback from the user.
+* With different color variations to keep the user engaged.
 
