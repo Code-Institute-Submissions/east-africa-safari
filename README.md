@@ -22,20 +22,29 @@ also response to the user.
 # ux
 
 - As a developer
- - I have always been attracted to tourist sites and travelling therefore i wanted to begin small and create a travel site
+    - I have always been attracted to tourist sites and travelling therefore i wanted to begin small and create a travel site
 which will showcase various travel sites in East Africa, I hope to create an interesting site that will motivate more 
 tourists to visit east Africa.
- - I want users to browse with ease my site as they search for travel destinations in East Africa.
+    - I want users to browse with ease my site as they search for travel destinations in East Africa.
 - As a user who likes travelling
- - I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
+    - I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
 - As a user who is a tourist
- - I am a user who is looking for a travel destinations sites in East Africa. I want to be able to make 
+    - I am a user who is looking for a travel destinations sites in East Africa. I want to be able to make 
 a choice after visiting the website.
 - As a user who is fascinated by nature
- - I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
+    - I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
 worth visitimg the site again, if the site will be captivating.
 
 ## UX Design Processes
+
+### Strategy Plane
+*Having identified the needs of different users, I needed to develope a site that will give value to both the developer 
+and the user. Appropriate use of HTML5, CSS3 and Javascript would help me achieve an interactive site.
+
+### Scope Plane
+* This is where according to user needs I incorporated a map, top travel destinations and feedback section for my users 
+be totally informed and interact with the site, and top destinations section too as a feature would help th user explore top
+travel destinations through the read more buttons also.
 
 ### structure Plane
 * At this stage i organised my data seeing to it that site information is presented well.
@@ -49,3 +58,17 @@ worth visitimg the site again, if the site will be captivating.
 * Feedback section for any feedback from the user.
 * With different color variations to keep the user engaged.
 
+### Skeleton Plane
+* At this stage I was sketching my design to see how I will practically organise my data.
+* Creating design for each section to see how images, text and additional features will fit in their apparent sections.
+* This required drawing designs for different sections and different bscreen sizes.
+
+### Surface Plane
+* At the surface plane I needed to come up with an visuallyu appealing site, google fonts I picked three different fonts
+  and incorpared different colors for contrast. The sequence in which information was presented is consistent too.
+* I incorporated images in top destinations section and preview section too and also in the feedback form, just  to make 
+the site appealing in order to achieve the sites developer an user objectives
+* Buttons with hove state to capture the attention of the user
+* Contrast in colors for buttons and text.
+
+# features
