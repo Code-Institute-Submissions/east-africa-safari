@@ -37,3 +37,15 @@ worth visitimg the site again, if the site will be captivating.
 
 ## UX Design Processes
 
+### structure Plane
+*At this stage i organised my data seeing to it that site information is presented well.
+*I started with the navigation bar at the top and footer at the bottom.
+*The navigation bar has links to allow navigation to different areas.
+*The navbar and the footer has same background colors for easy identification.
+*A corousel section to engage the user.
+*A destinations section to invite the user to top destinations section.
+*Previews stories section to inspire the user.
+*Map section to help user see locations in the map.
+*Feedback section for any feedback from the user.
+*With different color variations to keep the user engaged.
+

@@ -76,7 +76,7 @@ html, body {
 
 .caption .btn {
     position: absolute;
-    transform: translate(330%, 1200%);
+    transform: translate(220%, 1200%);
     z-index: 1;
     color: #fafafa;
     font-family: 'Acme',sans-serif;
@@ -442,7 +442,13 @@ border-radius: 50%;
         }
             
 
-        
+        .feedback-title {
+            display:flex;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 2rem;  
+        }
+
 
         .feedback-header {
             display:flex;
@@ -451,6 +457,8 @@ border-radius: 50%;
             border-bottom: 1px solid #FF6700;
             margin-bottom: 3rem;  
         }
+
+        
 
         .form-content {
             display: flex;
