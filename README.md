@@ -21,25 +21,25 @@ also response to the user.
 
 # ux
 
-- _As a developer_
-    - I have always been attracted to tourist sites and travelling therefore i wanted to begin small and create a travel site
-which will showcase various travel sites in East Africa, I hope to create an interesting site that will motivate more 
-tourists to visit east Africa.
+__As a developer__
+    - I have always been attracted to tourist sites and travelling therefore I wanted to begin with the new found knowledge
+     and create a travel site which will showcase various travel sites in East Africa, I hope to create an interactive 
+     interesting site that will motivate more tourists to visit east Africa.
     - I want users to browse with ease my site as they search for travel destinations in East Africa.
-- _As a user who likes travelling_
+ __As a user who likes travelling__
     - I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
-- _As a user who is a tourist_
+__As a user who is a tourist__
     - I am a user who is looking for a travel destinations sites in East Africa. I want to be able to make 
 a choice after visiting the website.
-- _As a user who is fascinated by nature_
+ __As a user who is fascinated by nature__
     - I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
 worth visitimg the site again, if the site will be captivating.
 
-## UX Design Processes
+## UX Design 
 
 ### Strategy Plane
-* Having identified the needs of different users, I needed to develope a site that will give value to both the developer 
-and the user. Appropriate use of HTML5, CSS3 and Javascript would help me achieve an interactive site.
+* Having identified the needs of different users, I needed to develop a site that will give value to both the developer 
+and the user. Appropriate use of HTML5, CSS3 and Javascript would help me achieve in creating an interactive site.
 
 ### Scope Plane
 * This is where according to user needs I incorporated a map, top travel destinations and feedback section for my users 
@@ -61,7 +61,7 @@ travel destinations through the read more buttons also.
 ### Skeleton Plane
 * At this stage I was sketching my design to see how I will practically organise my data.
 * Creating design for each section to see how images, text and additional features will fit in their apparent sections.
-* This required drawing designs for different sections and different bscreen sizes.
+* This required drawing designs for different sections and different screen sizes.
 
 ### Surface Plane
 * At the surface plane I needed to come up with an visuallyu appealing site, google fonts I picked three different fonts
@@ -71,4 +71,44 @@ the site appealing in order to achieve the sites developer an user objectives
 * Buttons with hove state to capture the attention of the user
 * Contrast in colors for buttons and text.
 
-# features
+# Features
+* At the top section that is home I used navigation bar with links to navigate to different sections of the wedsite. Each link will allow the 
+user to navigate to different sections of the page for it is clickable and has smooth scroll to the respective sections.
+* The second feature is the footer, i have used the same color as the navigation at the top for consistency and visual balance.
+## Existing Features
+__Landing Page__
+* Navbar used is customized from bootstrap, on smaller screens it is collapsible.
+* At the landing page I included a carousel with images which captures the attention of the user. The images were sourced
+ sourced from [pexels](pexels.com).
+* The navigation bar is with the brand name acting as the logo, where by I used a different font - family of Cinzel 
+to bring the difference, also giving it a contrasting color of (#FF6700) contrasting with the background-color navy-blue 
+(#03045E) for the navbar.
+* Also the carousel has some text adverting East Africa Safari Website and with a button which takes the user to the top 
+destination sections when clicked.
+* The destinations button has dar(#FF6700) color and when hovered over it turns to transparent.
+
+__Previews Section__
+* There are three cards with preview stories, the front holds an image and the back holds the preview stories, the cards
+ have a flip effect when hovered so that the back information is exposed saving up on space.
+ * The section has a well highlighted header description with spans coming out with orange color (#FF6700) for emphasis
+ and making the user to proceed with the site. The font color at the preview stories section is contrasting well with the cards
+ background color of rgba(150, 117, 117, 0.2).
+
+ __Top destinations Section__
+ * At this section I am making use of Tabs to display the top travel destinations in Kenya, Uganda and Tanzania, with 
+ three destinations in every country.
+ * The tab has three buttons at the top for displaying information for each category, with an active colour of orange (#FF6700) 
+ for the highlighted category.
+ * At the bottom of tab, there is a button directing the user to read more about the specific destination.
+
+ __Google map Section__API
+ In this section i have showcased a map displaying kenya, uganda and tanzania, its center point being Maasai Mara National Park 
+ and with a zoom of 6, the javaScript used on for  __Google Maps__ can be found on maps.js page. I needed to intergrate map 
+ markers such that a when user clicks on the marker it opens an info window displaying the name of the location. To this point I copied
+ code from a repository by code institute student and the markers displayed. I started with [Geocoding](https://developers.google.com
+ /maps/documentation/javascript/geocoding) but there was a concept i was missing, so i got code from code institute github 
+ repository which was iterating through two variables contents and locations to create map markers.
+
+
+
+
