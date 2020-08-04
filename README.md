@@ -21,18 +21,21 @@ also response to the user.
 
 # ux
 
-__As a developer__
-    - I have always been attracted to tourist sites and travelling therefore I wanted to begin with the new found knowledge
+ __As a developer__ 
+     - I have always been attracted to tourist sites and travelling therefore I wanted to begin with the new found knowledge
      and create a travel site which will showcase various travel sites in East Africa, I hope to create an interactive 
      interesting site that will motivate more tourists to visit east Africa.
-    - I want users to browse with ease my site as they search for travel destinations in East Africa.
- __As a user who likes travelling__
-    - I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
-__As a user who is a tourist__
-    - I am a user who is looking for a travel destinations sites in East Africa. I want to be able to make 
+     - I want users to browse with ease my site as they search for travel destinations in East Africa.
+
+  __As a user who likes travelling__
+     - I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
+
+  __As a user who is a tourist__
+     - I am a user who is looking for a travel destination site in East Africa. I want to be able to make 
 a choice after visiting the website.
- __As a user who is fascinated by nature__
-    - I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
+
+  __As a user who is fascinated by nature__
+     - I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
 worth visitimg the site again, if the site will be captivating.
 
 ## UX Design 
@@ -100,14 +103,42 @@ __Previews Section__
  * The tab has three buttons at the top for displaying information for each category, with an active colour of orange (#FF6700) 
  for the highlighted category.
  * At the bottom of tab, there is a button directing the user to read more about the specific destination.
+ * I modified Code from [here](https://www.youtube.com/watch?v=v6-4wh_o9iM) to come up with tabs for top destinations section. 
 
- __Google map Section__API
- In this section i have showcased a map displaying kenya, uganda and tanzania, its center point being Maasai Mara National Park 
+ __Google Maps API Section__
+ * In this section i have showcased a map displaying kenya, uganda and tanzania, its center point being Maasai Mara National Park 
  and with a zoom of 6, the javaScript used on for  __Google Maps__ can be found on maps.js page. I needed to intergrate map 
  markers such that a when user clicks on the marker it opens an info window displaying the name of the location. To this point I copied
- code from a repository by code institute student and the markers displayed. I started with [Geocoding](https://developers.google.com
- /maps/documentation/javascript/geocoding) but there was a concept i was missing, so i got code from code institute github 
- repository which was iterating through two variables contents and locations to create map markers.
+ code from a repository by code institute student and the markers displayed. I started with [Geocoding](https://developers.google.com/maps/documentation/javascript/geocoding) but there was a concept i was missing, so i got code from code institute github 
+ repository which was iterating through two variables contents and locations to create map markers, i modified it to display
+ the top destinations location in the map by use of map markers and an infowindow.
+
+ __Feedback form__
+ * This section is a feedback form for the users to send their feedback.
+ * It starts with a feedback form at the left and an image at the right.
+ * The user get to fill the form created by [EmailJs](https://www.emailjs.com/) where by upon submitting the message will be 
+ delivered to the developers email. 
+
+ __Features Left to implement__
+ * 
+
+ # Technologies used
+ * HTML5
+    * The language used to add content to the website.
+ * CSS3
+    * The language used to style HTML5 elements.
+ * JavaScript
+    * The language used to create tabs for the top destinations, implementing GOOGLE MAPS API and send emails with EmailJS.
+* [jQuery](https://jquery.com/) 
+    * The library helped me write code for the carousel, code copied and modified from [here](https://kenwheeler.github.io/slick/).
+* [Bootstrap framework](https://getbootstrap.com/)
+    * I used bootstrap for the navigation bar, footer 
+
+
+
+
+
+ 
 
 
 
