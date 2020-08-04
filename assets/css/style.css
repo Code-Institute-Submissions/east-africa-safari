@@ -642,6 +642,17 @@ border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(150, 117, 117, 0.2); 
      flex-flow: row wrap;
  }
+
+.caption .btn {
+    position: absolute;
+    transform: translate(220%, 1180%);
+}
+ .previews .previews-header .previews-header-desc {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 5px;
+    color: #03045E;
+}
     
 }
   
