@@ -123,11 +123,11 @@ __Previews Section__
  * 
 
  # Technologies used
- * HTML5
+ * [HTML5](https://html5.com/)
     * The language used to add content to the website.
- * CSS3
+ * [CSS3](https://css3.com/)
     * The language used to style HTML5 elements.
- * JavaScript
+ * [JavaScript](https://javascript.com/)
     * The language used to create tabs for the top destinations, implementing GOOGLE MAPS API and send emails with EmailJS.
 * [jQuery](https://jquery.com/) 
     * The library helped me write code for the carousel, code copied and modified from [here](https://kenwheeler.github.io/slick/).
