@@ -115,6 +115,7 @@ h5 {
 p {
     margin: 0 1em;
     padding: 0;
+    color: #03045E;
 }
 
 
@@ -383,6 +384,11 @@ border-radius: 50%;
         transform: rotateY(180deg);
     } 
 
+
+    .preview-header {
+
+    }
+
    .preview-back-heading {
     font-size: 1.8rem;
     font-family: 'Acme', sans-serif;
@@ -399,14 +405,19 @@ border-radius: 50%;
     text-align:center;
     padding: 0;
     color:#03045E;
-  
-   }
+     }
 
- 
+    
 
    .preview-header p {
        margin-bottom: 2em;
+       font-size: 1.5rem;
    }
+
+   .preview-header span{
+    color: #FF6700;
+    font-weight: 600;
+    }
 
 
    .destinations {
@@ -731,6 +742,9 @@ border-radius: 50%;
     font-size: 0.8em;
 }
 
+.preview-header p {
+    margin: 5em;
+    }
 
 
  /* .previews .previews-info .preview .preview-card {
