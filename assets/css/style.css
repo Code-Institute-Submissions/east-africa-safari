@@ -314,6 +314,25 @@ border-radius: 50%;
     color:#03045E;
   
    }  */
+
+   .section-container {
+       display: block;
+       justify-content: center;
+       text-align: center;
+       margin: 0;
+       padding: 0;
+   }
+   .section-container-row {
+       margin: 0;
+   }
+
+   .preview-section-card {
+       border-radius: .5em;
+       width: 90%;
+       height:85%;
+       margin: 13%;
+       padding: 3%;
+   }
 #preview {
     padding: 5em 0 0 0;
     overflow: hidden;
