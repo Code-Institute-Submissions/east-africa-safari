@@ -85,6 +85,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     } 
 
 
@@ -239,7 +240,8 @@ border-radius: 50%;
   
 }
 
-.previews-info {
+#preview {
+    min-height: 50vh !important;
 
 }
  
@@ -251,12 +253,16 @@ border-radius: 50%;
     margin: 2rem;
     }   */
 
- /* .previews .previews-header {
-    width: 100%;
+ .previews .previews-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
     text-align: center;
-    align-items: flex-start;
+    padding-top: 5rem;
    
-}  */
+    
+   
+} 
 
 /* .previews .previews-header .previews-header-heading {
     font-size: 2.2rem;
@@ -476,16 +482,16 @@ border-radius: 50%;
 
 
     #destinations {
-        min-height: 100vh;
+        min-height: 100vh!important;
+       
     }
 
    .destinations {
      width: 90%; 
-     
      position: relative;
      overflow: hidden;
      margin: 0 auto;
-     background-color: red;
+    
                    
     }
 
@@ -493,6 +499,7 @@ border-radius: 50%;
        display: flex;
        justify-content: center;
        align-items: center;
+       margin-top: 5rem;
     }
 
     .destinations-title .destinations-title-heading {
@@ -540,29 +547,29 @@ border-radius: 50%;
 
    .content {
     display: flex;  
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    margin: 2% auto;
-    position: absolute;
+    padding: 2.5rem; 
+    position: absolute; 
     transform: translateX(100%);  
     }
 
-    .card {
-    flex-basis: 33%;
-    text-align: center;
-}
+    
 
     .card {
+    flex-basis: 30%;
+    text-align: center;
     background-color: white;
     border-radius: 8px 8px 0 0; 
     box-shadow: 0 2px 20px rgba(0,0,0,0.1);
     overflow: hidden;
-    height: 450px;
-        }
+    height: 400px;    
+    }
 
     .card .card-title  {
-        font-size: 1.5rem;
-        padding: .3rem;
+        font-size: 1.2rem;
+        padding: .2rem;
         background-color: #FF6700;
     }
 
@@ -582,7 +589,7 @@ border-radius: 50%;
 
         .explore {
         width: 90%; 
-        min-height: 100vh;
+        min-height: 70vh;
         margin: 0 auto;
         padding: 5rem 5rem 5rem 5rem; 
         position: relative;               
@@ -592,8 +599,8 @@ border-radius: 50%;
        
         
         #map {
-            height: 70vh !important;
-            width: 80%;
+            min-height: 70vh!important;
+            width: 100%;
             border: 5px solid  #03045E;
             border-radius: 20px;
             margin: 0 auto;
@@ -838,7 +845,10 @@ border-radius: 50%;
 /* .preview-header p {
     margin: 5em;
     } */
-
+        #map {
+            width: 100%;
+        }
+     
      form {
            
             margin: 0;
