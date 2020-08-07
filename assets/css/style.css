@@ -61,15 +61,15 @@ html, body {
 
  
 
-h1, 
+/* h1, 
 h2,
 h5 {
     font-family: 'Acme', sans-serif;
-    color: #03045E;
+    color: #03045E!important;
     text-transform: capitalize;
     margin: 0;
     padding: 0;
-}
+} */
 
 p {
     margin: 0 1em;
@@ -194,7 +194,11 @@ border-radius: 50%;
 
 .jumbotron h1,h2 {
     margin-bottom: 1.5rem;
-    color: #fafafa;
+    color: #fafafa; font-family: 'Acme', sans-serif;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+
     
     
 } 
@@ -471,14 +475,18 @@ border-radius: 50%;
     } */
 
 
+    #destinations {
+        min-height: 100vh;
+    }
+
    .destinations {
      width: 90%; 
-     min-height: 100vh;
+     
      position: relative;
      overflow: hidden;
      margin: 0 auto;
-       
-             
+     background-color: red;
+                   
     }
 
     .destinations-title {
@@ -492,6 +500,9 @@ border-radius: 50%;
       font-family: 'Acme', sans-serif;
       letter-spacing: 2px;
       text-transform: capitalize;
+      color: #03045E!important;    
+      margin: 0;
+      padding: 0;
     }
     
 
@@ -546,12 +557,13 @@ border-radius: 50%;
     border-radius: 8px 8px 0 0; 
     box-shadow: 0 2px 20px rgba(0,0,0,0.1);
     overflow: hidden;
-    height: 520px;
+    height: 450px;
         }
 
-    .card .card-title {
+    .card .card-title  {
         font-size: 1.5rem;
-        padding: 5px;
+        padding: .3rem;
+        background-color: #FF6700;
     }
 
     .card p {
@@ -592,7 +604,15 @@ border-radius: 50%;
             display:flex;
             justify-content: center;
             align-items: center;
-            margin-bottom: 2rem;
+            margin-bottom: 2rem; 
+        }
+
+        .map-header h2 {
+            font-family: 'Acme', sans-serif;
+            color: #03045E!important;
+            text-transform: capitalize;
+            margin: 0;
+            padding: 0;
         }
 
         /* .feedback {
