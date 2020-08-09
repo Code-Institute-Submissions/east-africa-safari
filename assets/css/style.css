@@ -90,13 +90,13 @@ p {
 
 
 
-#home,
+/* #home,
 #preview,
 #destinations,
 #explore,
 #feedback {
     min-height: 100vh;
-}
+} */
 
 
 
@@ -248,7 +248,7 @@ border-radius: 50%;
 }
 
 #preview {
-    min-height: 50vh !important;
+    min-height: 50vh; 
 
 }
  
@@ -489,7 +489,7 @@ border-radius: 50%;
 
 
     #destinations {
-        min-height: 100vh!important;
+        min-height: 70vh!important; 
        
     }
 
@@ -557,7 +557,7 @@ border-radius: 50%;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 2.5rem; 
+    padding-top: 2rem; 
     position: absolute; 
     transform: translateX(100%);  
     }
@@ -571,7 +571,7 @@ border-radius: 50%;
     border-radius: 8px 8px 0 0; 
     box-shadow: 0 2px 20px rgba(0,0,0,0.1);
     overflow: hidden;
-    height: 400px;    
+    height: 650px;    
     }
 
     .card .card-title  {
@@ -595,10 +595,10 @@ border-radius: 50%;
     }
 
         .explore {
-        width: 90%; 
-        min-height: 70vh;
+        width: 80%; 
+        min-height: 70vh; 
         margin: 0 auto;
-        padding: 5rem 5rem 5rem 5rem; 
+        padding-top: 5rem 5rem 5rem 5rem; 
         position: relative;               
         }
 
@@ -637,15 +637,12 @@ border-radius: 50%;
         overflow: hidden;                           
         }
             
-
         .feedback-title {
             display:flex;
             justify-content: center;
             text-align: center;
             margin-bottom: 2rem;  
         }
-
-
         .feedback-header {
             display:flex;
             justify-content: center;
@@ -653,9 +650,7 @@ border-radius: 50%;
             border-bottom: 1px solid #FF6700;
             margin-bottom: 3rem;  
         }
-
         
-
           .form-content {
             display: flex;
             justify-content: center;
@@ -677,7 +672,6 @@ border-radius: 50%;
             
             
         }
-
         .form-group {
             margin-bottom: 0;
         } */
@@ -839,19 +833,11 @@ border-radius: 50%;
     }
  }
 @media only screen and (max-width: 320px){
-   /* .preview-card-container {
-    width: 50%;
-    min-height: 300px;
-    margin: 0 auto; 
-} */
+/
 
-/* .preview-card {
-    font-size: 0.8em;
-} */
 
-/* .preview-header p {
-    margin: 5em;
-    } */
+
+
         #map {
             width: 100%;
         }
@@ -901,7 +887,6 @@ border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(150, 117, 117, 0.2); 
      flex-flow: row wrap;
  }
-
 .caption .btn {
     position: absolute;
     transform: translate(220%, 1180%);
@@ -932,7 +917,17 @@ border-radius: 50%;
         font-size: .8rem;
         line-height: 1rem;
         text-align:center;
+       
     } 
+
+      #destinations {
+        height: 100vh !important;
+    } 
+
+    #preview {
+       height: 100vh !important;
+        margin: 5rem 0;
+    }
     /* this code was to enable the carousel images to display 100vh, it was initially displaying 70vh leaving a grey space*/
     .carousel_slider img {
     height: 100vh !important; 
@@ -954,13 +949,23 @@ border-radius: 50%;
     }
 }
 
-@media only screen and (max-width: 1024px){
-    .carousel-slider img {
-        min-height: 100vh;
+ @media only screen and (max-width: 1024px){
+    .carousel_slider img {
+        height: 70vh;
+    } 
+
+    .carousel_slider-wrap {
+       height: 70vh;
+    } 
+
+    #destinations {
+        height: 60vh;
     }
+
+    #map {
+            height: 70vh!important;
+            width: 80%;
+           
+          
+        }  
 }
-
-
-     
-
-
