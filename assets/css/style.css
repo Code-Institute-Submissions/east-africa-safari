@@ -300,7 +300,7 @@ border-radius: 50%;
   
 
     #destinations {
-        /* min-height: 120vh!important;   */
+       
         padding: 0;
        
     }
@@ -459,6 +459,7 @@ border-radius: 50%;
         .bigfive-img img {
             border-top-left-radius: 30px;
             border-bottom-left-radius: 30px;
+            height: 340px;
         }
 
         .center-form {
@@ -573,7 +574,7 @@ border-radius: 50%;
 
 
       #destinations {
-        min-height: 100vh;
+        height: 100vh;
     } 
 
    
@@ -601,7 +602,8 @@ border-radius: 50%;
     }
   
         #destinations {
-        height: 150vh;
+        min-height: 100vh;
+    } 
     } 
 
      
@@ -613,8 +615,9 @@ border-radius: 50%;
     } 
 
     #destinations {
-        height: 60vh;
-    }
+         min-height: 50vh;
+        } 
+    
 
     #map {
             height: 50vh!important;
@@ -629,9 +632,15 @@ border-radius: 50%;
         }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 1600px){
    
+         #destinations {
+             min-height: 120vh;
 
+       
+         padding: 0;
+       
+    }
    
 
 }
