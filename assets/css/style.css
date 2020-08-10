@@ -330,7 +330,7 @@ border-radius: 50%;
   
 
     #destinations {
-        min-height: 120vh!important;  
+        /* min-height: 120vh!important;   */
         padding: 0;
        
     }
@@ -472,47 +472,46 @@ border-radius: 50%;
             margin: 0;
             padding: 0;
         }
+        #feedback {
+            padding: 2rem 0;
 
-      
-            
-        .feedback {
-           padding-top: 5rem;
-           padding-bottom: 2rem;
         }
-       
-        
-          .form-content {
-            width: 70%;
-            background:rgba(0,0,0, .6);
-            color: white;
-            height: 70vh;
-            margin-top: 0;
-            padding: 3rem;
-            margin: auto; 
-            border-radius: 7px;      
-                         
+
+        .row {
+            background: #C0C0C0;
+            border-radius: 30px;
+            width:90%;
+            margin: auto;
+            /* padding: 2rem 0; */
+          
+        }
+
+        .bigfive-img img {
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+        .center-form {
+            width: 100%;
+        }
+
+         .btn-1 {
+            border: none;
+            outline: none;
+            background-color: #03045E !important;
+            color:   #C0C0C0;
+            width: 30%;
+            border-radius: 4px;
+            transition: .3s ease background-color;
+                    }
+
+        .btn-1:hover {
+            background-color:  transparent !important;
+            border: 2px solid #03045E;
+            color:  #03045E;
+            font-family:'Acme', sans-serif;                  
         } 
 
-        .form-content h3 {
-            padding: 0;
-        }
-
-        input, textarea {
-            margin: 1rem 0;
-        }
-
-        .bigfive-img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 7px;
-        }
-
-          
-
-       
-       
-      
 
         .btn-blue {
             background-color: #03045E !important;
@@ -528,21 +527,8 @@ border-radius: 50%;
             color:  #03045E;
             font-family:'Acme', sans-serif;
             font-weight: 600;
-                 
-        } 
+         } 
       
-
-        
-       
-
-      
-
-             
-      
-
-     
-
-         
 
         #footer {
             background-color: #03045E;
@@ -554,26 +540,6 @@ border-radius: 50%;
             color:  #C0C0C0;
         }
 
-
-      
-
-       
-
-
-
-   @media only screen and (min-width:768px) {
-    
-   
-
-
-   
-
-
-
-         
-
-   
-
  
    
  @media only screen and (max-width:768px) {
@@ -583,18 +549,6 @@ border-radius: 50%;
 
     }
 
-    .form-content {
-             height: 40vh;
-    }
-
-    .feedback {
-           padding-top: 0;
-           padding-bottom: 1rem;
-        }
-
-    .preview {
-
-    }
 
     .tab-bar {
        display:flex;
@@ -615,34 +569,10 @@ border-radius: 50%;
             width: 100%;
         }
 
-        input, textarea {
-            margin: 0;
-        }
-
-          .feedback {
-           padding-top: 0;
-           padding-bottom: 0;
-        }
      
 
        
-
-   
-
-   /* .explore {
-        width: 90%; 
-        height: 100vh;
-        margin: 0 auto;
-        padding: 0; 
-        position: relative;               
-        } */
-
-
-
-
-
-
-
+ 
 }
   
   @media screen and (min-width:550px){
@@ -661,12 +591,12 @@ border-radius: 50%;
         grid-template-columns: repeat(2, 1fr);
         font-size: .8rem;
         line-height: 1rem;
-        text-align:center;
+        text-align: center;
        
     } 
 
       #destinations {
-        height: 150vh !important;
+        min-height: 100vh;
     } 
 
    
@@ -692,21 +622,8 @@ border-radius: 50%;
     #map {
         width: 100%;
     }
-
-       input, textarea {
-            margin-left: 1rem;
-        }
-
-          .feedback {
-           padding-top: 0;
-           padding-bottom: 0;
-        }
-
-         .form-content {
-             height: 80vh;
-         }
-
-          #destinations {
+  
+        #destinations {
         height: 150vh;
     } 
 
@@ -715,11 +632,7 @@ border-radius: 50%;
 
  @media screen and (max-width: 1024px){
     .carousel_slider img {
-        max-height: 100vh;
-    } 
-
-    .carousel_slider-wrap {
-       height: 50%;
+        height: 200vh;
     } 
 
     #destinations {
@@ -727,19 +640,21 @@ border-radius: 50%;
     }
 
     #map {
-            height: 70vh!important;
-            width: 80%;                    
+            height: 50vh!important;
+            width: 80%;   
+            padding: 0;                 
         }  
+
+         .bigfive-img img {
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            height: 400px;
+        }
 }
 
 @media only screen and (max-width: 375px){
-    .form-content {
-        height: 100vh;
-    }
+   
 
-    .feedback {
-           padding-top: 0;
-           padding-bottom: 0;
-        }
+   
 
 }
