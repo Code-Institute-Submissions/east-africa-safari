@@ -224,6 +224,23 @@ border-radius: 50%;
     padding-top: 5rem;   
 } 
 
+.previews .previews-header h1 {
+    color: #03045E;   
+} 
+
+.previews .previews-header span {
+    color: #FF6700;  
+    font-weight: 600;
+     
+} 
+
+.previews .previews-header p {
+    font-size: 1.2rem;
+     
+} 
+
+
+
 
 
  .previews .previews-info {
@@ -443,23 +460,36 @@ border-radius: 50%;
             padding: 0;
         }
         #feedback {
-            padding: 2rem 0;
+            padding: 1rem 0;  
 
+        }
+
+        .feedback h1 {
+            color: #03045E;
+            margin-top: 3rem;  
+            text-align:center;
+        }
+
+        .feedback h2 {
+            color: #03045E;            
+        }
+
+        .form-content {
+            /* padding-top: 2rem 0;    */
         }
 
         .row {
             background: #C0C0C0;
             border-radius: 30px;
             width:90%;
-            margin: auto;
-            /* padding: 2rem 0; */
-          
+            /* padding: 1rem 0;  */
+            margin: auto; 
         }
 
         .bigfive-img img {
             border-top-left-radius: 30px;
             border-bottom-left-radius: 30px;
-            height: 340px;
+            height: 350px;
         }
 
         .center-form {
