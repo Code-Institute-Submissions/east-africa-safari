@@ -88,14 +88,6 @@ p {
     overflow: hidden;
     } 
 
-
-
-
-
-
-
-
-
  .carousel_slider {
   height: 100vh;
 } 
@@ -174,8 +166,6 @@ border-radius: 50%;
     justify-content: center;
     align-content: center;
     background-color: transparent;
-      
-    
 } 
 
 .jumbotron h1,h2 {
@@ -184,7 +174,6 @@ border-radius: 50%;
     text-transform: capitalize;
     margin: 0;
     padding: 0;   
-    
 } 
 
 .jumbotron h1 {
@@ -199,10 +188,8 @@ border-radius: 50%;
 
 
 .btn-blue {
-   
     color: #fafafa;
     font-family: 'Acme',sans-serif;
-    /* margin-right: 50px!important; */
     z-index: 1;
     background-color: #03045E;
     border: 2px solid #03045E;
@@ -221,12 +208,10 @@ border-radius: 50%;
 .underline {
     border: none;
     border-bottom: 2px solid #FF6700;
-  
 }
 
 #preview {
     min-height: 50vh; 
-
 }
  
 
@@ -236,27 +221,18 @@ border-radius: 50%;
     grid-template-columns: 1fr;
     align-items: center;
     text-align: center;
-    padding-top: 5rem;
-   
-    
-   
+    padding-top: 5rem;   
 } 
 
 
 
  .previews .previews-info {
-
      display: grid; 
      grid-template-columns: minmax(300px, 1fr);  
       /* grid-template-columns: 1fr;  */
-    justify-content: center;  
-    grid-gap: 2rem;
-    margin: 2rem;
-   
-  
-    
-    
-    
+     justify-content: center;  
+     grid-gap: 2rem;
+     margin: 2rem;
 } 
 
    .previews .previews-info .preview {
@@ -264,12 +240,7 @@ border-radius: 50%;
     min-height: 400px;
     position: relative;
     transition: .3s ease transform; 
-    text-align: center;
-    
-   
- 
-  
-    
+    text-align: center; 
 }  
 
   .previews .previews-info .preview .preview-card {
@@ -280,7 +251,6 @@ border-radius: 50%;
     transition: .3s ease transform;
     display: block;  
     box-shadow: 0 4px 8px 0 rgba(150, 117, 117, 0.2); 
-
  } 
 
     .previews .previews-info .preview .preview-card .preview-front,
@@ -297,7 +267,7 @@ border-radius: 50%;
      border-radius: 7px;
      background-color: #BBB8B2;
      box-shadow: 0 4px 8px 0 rgba(53, 27, 27, 0.692); 
-   */
+   
      } 
 
      .previews .previews-info .preview .preview-card .preview-back {
@@ -591,9 +561,16 @@ border-radius: 50%;
         grid-template-columns: repeat(2, 1fr);
         font-size: .8rem;
         line-height: 1rem;
-        text-align: center;
-       
+        text-align: center;  
     } 
+
+     .bigfive-img img {
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            width: 100%;
+            }
+
+
 
       #destinations {
         min-height: 100vh;
