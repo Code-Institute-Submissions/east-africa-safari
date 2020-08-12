@@ -10,7 +10,7 @@ with Code Institute I developed East Africa Safari website for my Milestone 2 Pr
 and showcase acquired skills, building interactive and responsive website with HTML5, CSS3 and JavaScript as required.
 
 I have used 2 javaScript APIs in my project, googlemaps API to help users that are looking for travel destinations to 
-locate some in  East Africa. 
+locate some in  East Africa and EmailJS. 
 
 As a developer EmailJs will enable me get neccessary feedback and implement where possible, thereby improving the efficiency
 of the website.
@@ -123,16 +123,43 @@ __Previews Section__
  * 
 
  # Technologies used
- * [HTML5](https://html5.com/)
+ * [HTML5] (https://html5.com/)
     * The language used to add content to the website.
- * [CSS3](https://css3.com/)
+ * [CSS3] (https://css3.com/)
     * The language used to style HTML5 elements.
- * [JavaScript](https://javascript.com/)
+ * [JavaScript] (https://javascript.com/)
     * The language used to create tabs for the top destinations, implementing GOOGLE MAPS API and send emails with EmailJS.
-* [jQuery](https://jquery.com/) 
+* [jQuery] (https://jquery.com/) 
     * The library helped me write code for the carousel, code copied and modified from [here](https://kenwheeler.github.io/slick/).
-* [Bootstrap framework](https://getbootstrap.com/)
-    * I used bootstrap for the navigation bar, footer 
+* [Bootstrap framework] (https://getbootstrap.com/)
+    * I used bootstrap for the navigation bar and the footer. 
+*[Gitpod] (https://www.gitpod.io/)
+*[Git Version Control] (https://www.gitpod.io/)
+*[Github] (https://github.com/)
+
+# Additional tools used
+*[Font Awesome] (https://fontawesome.com/)
+*[Google Fonts] (https://fonts.google.com/)
+
+# Testing
+
+
+# Deployment
+## Deployment of the project
+### Deploying to Github Pages
+Below is the deployment process. Deployment enables the project to be viewed live by others.
+I navigated the 'Settings' section of my project repository at the top right of the page.
+From there, I scrolled to the 'GitHub Pages' section.
+Then selected 'master branch' as my Source.
+Our  site is published and a link the live project is provided.
+
+#Deploying with Google Maps API
+I started by setting up an account [here](https://developers.google.com/maps/gmp-get-started)
+Then I used Maps Javascript API and an API key with the steps [here](https://developers.google.com/maps/documentation/javascript/get-api-key)
+After setting up my Google Maps feature in my project as described [here](https://developers.google.com/maps/documentation/javascript/overview), I restricted the key's access.
+
+
+
 
 
 
