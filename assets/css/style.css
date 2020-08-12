@@ -468,72 +468,87 @@ border-radius: 50%;
             padding: 0;
         }
         .feedback {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .form-content {
-            max-width: 850px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            background-color: red;
+          max-width: 1170px;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 1rem;
+          /* background-color: #C0C0C0; */
+          padding-top: 4rem;
+          /* margin-bottom: 5rem; */
         }
 
         .feedback h1 {
-            color: #03045E;
-            margin-top: 3rem;  
-            text-align:center;
-            width: 90%;
-            height: 100%;
-            padding: 20px 100px;
+            text-align: center;
+            margin-top: 1rem;
+            color:  #03045E;
         }
 
-        .feedback h2 {
-            color: #03045E;            
+        .feedback h3 {
+            color:  #03045E;
         }
 
-        
-        /* .row {
-            background: #C0C0C0;
-            border-radius: 30px;
-            width: 80%;
-            /* padding: 1rem 0;  */
-            margin: auto; 
-        } */
+        .form-content {
+           box-shadow: 0 0 20px 0 rgba(150, 117, 117, 0.4);
+           display: grid;
+           grid-column-gap: 1rem;
+        }
 
-        
+    .bigfive-img {
+            display: grid;    
+        }
 
         .bigfive-img img {
-            border-top-left-radius: 30px;
-            border-bottom-left-radius: 30px;
-            height: 360px;
+            width: 100%;
+            border-radius: 8px;
+
         }
 
-        .center-form {
-            width: 120%;
-           padding-left: 2rem;
+        .center-form form {
+            display: grid;
+            grid-template-columns: 1fr;
+            height: 90%;
+            
         }
+
+        .center-form .field {
+           outline: none;
+           border: 2px solid rgba(0,0,0,0);
+           background-color: rgba(150, 117, 117, 0.2);
+           margin-bottom: 1rem;
+           transition: .3s; 
+        }
+
+        .center-form .field:hover {
+           background-color: rgba(0, 0, 0, 0.2);
+           color: #fafafa;
+        }
+
+         .center-form .field:focus {
+           background-color: #fff;
+           border: 2px solid rgba(184, 153, 153, 0.2);
+        }
+
+        .center-form h4{
+            color: #03045E;
+        }
+
+       
 
          .btn-1 {
-            border: none;
-            outline: none;
-            background-color: #03045E !important;
+           
+           background-color: #03045E !important;
             color:   #C0C0C0;
-            width: 30%;
-            border-radius: 4px;
-            transition: .3s ease background-color;
+            width: 20%;
+           border-radius: 4px;
+            transition: background-color 3s ease-out;
                     }
 
         .btn-1:hover {
             background-color:  transparent !important;
             border: 2px solid #03045E;
             color:  #03045E;
-            font-family:'Acme', sans-serif;                  
+            font-family:'Acme', sans-serif;
+            font-weight: 600;                 
         } 
 
 
@@ -611,9 +626,7 @@ border-radius: 50%;
   
 
   @media screen and (max-width:500px){
-    /* .card {
-        grid-template-columns: repeat(2, 1fr);
-    }   */
+   
   
 
     
@@ -627,6 +640,11 @@ border-radius: 50%;
     .content {
         grid-template-columns: repeat(3, 1fr);
     }  
+
+    .form-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
    }
 
      @media screen and (max-width:768px){
@@ -639,12 +657,14 @@ border-radius: 50%;
 
     
 
+    
 
-     .bigfive-img img {
+
+     /* .bigfive-img img {
             border-top-left-radius: 30px;
             border-bottom-left-radius: 30px;
             width: 100%;
-            }
+            } */
 
 
 
@@ -716,11 +736,11 @@ border-radius: 50%;
             padding: 0;                 
         }  
 
-         .bigfive-img img {
+         /* .bigfive-img img {
             border-top-left-radius: 30px;
             border-bottom-left-radius: 30px;
             height: 400px;
-        }
+        } */
 }
 
 @media only screen and (min-width: 1600px){
