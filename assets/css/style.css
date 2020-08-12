@@ -317,16 +317,16 @@ border-radius: 50%;
   
 
     #destinations {
-       
-        padding: 0;
-       
+        padding: 0; 
     }
 
    .destinations {
      width: 80%; 
+     height: 100vh; 
      position: relative;
      overflow: hidden;
      margin: 0 auto;
+     
     
                    
     }
@@ -353,7 +353,8 @@ border-radius: 50%;
        display:flex;
        border-bottom: 1px solid #ff6700;
        width: 90%;
-       margin-left: 10px;
+       margin-left: 3rem;
+       margin-bottom: 1rem; 
           }
 
     .tab-bar button {
@@ -377,32 +378,39 @@ border-radius: 50%;
 
    .card img {
        width: 100%;
-       height: 200px;
+       height: 180px; 
        object-fit: cover;
    }
 
    .content {
-    display: flex;  
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex;   */
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr);
+    justify-content: center;
+    grid-gap: 2rem;
     text-align: center;
-    padding-top: 2rem; 
-    position: absolute; 
+    /* position: absolute;  */
     width: 100%;
-    
-    transform: translateX(100%);  
+    /* padding: 1rem 1rem; */
+    margin: 2rem;
+    transform: translateX(100%); 
+     
     }
 
     
 
     .card {
-    flex-basis: 33%;
+    /* flex-basis: 30%;   */
     text-align: center;
     background-color: white;
     border-radius: 8px 8px 0 0; 
-    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
     overflow: hidden;
-    height: 650px;    
+    height: 400px;  
+    /* width: 300x; */
+   
+    /* padding: 2rem 1rem;  */
+     
     }
 
     .card .card-title  {
@@ -413,7 +421,7 @@ border-radius: 50%;
 
     .card p {
         font-size: 1rem;
-        padding: 0 10px;
+        /* padding: 0 10px; */
     }
 
     .card a {
@@ -427,7 +435,7 @@ border-radius: 50%;
 
         .explore {
         width: 80%; 
-        min-height: 70vh; 
+        /* min-height: 70vh;  */
         margin: 0 auto;
         padding: 5rem; 
         position: relative;               
@@ -437,7 +445,7 @@ border-radius: 50%;
        
         
         #map {
-            min-height: 70vh!important;
+            min-height: 70vh!important; 
             width: 90%;
             border: 5px solid  #03045E;
             border-radius: 20px;
@@ -449,7 +457,7 @@ border-radius: 50%;
             display:flex;
             justify-content: center;
             align-items: center;
-            margin-bottom: 2rem; 
+            margin-bottom: 1rem; 
         }
 
         .map-header h2 {
@@ -459,41 +467,56 @@ border-radius: 50%;
             margin: 0;
             padding: 0;
         }
-        #feedback {
-            padding: 1rem 0;  
+        .feedback {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
+        .form-content {
+            max-width: 850px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: red;
         }
 
         .feedback h1 {
             color: #03045E;
             margin-top: 3rem;  
             text-align:center;
+            width: 90%;
+            height: 100%;
+            padding: 20px 100px;
         }
 
         .feedback h2 {
             color: #03045E;            
         }
 
-        .form-content {
-            /* padding-top: 2rem 0;    */
-        }
-
-        .row {
+        
+        /* .row {
             background: #C0C0C0;
             border-radius: 30px;
-            width:90%;
+            width: 80%;
             /* padding: 1rem 0;  */
             margin: auto; 
-        }
+        } */
+
+        
 
         .bigfive-img img {
             border-top-left-radius: 30px;
             border-bottom-left-radius: 30px;
-            height: 350px;
+            height: 360px;
         }
 
         .center-form {
-            width: 100%;
+            width: 120%;
+           padding-left: 2rem;
         }
 
          .btn-1 {
@@ -570,22 +593,41 @@ border-radius: 50%;
             width: 100%;
         }
 
+        
      
 
        
  
 }
-  
+ 
   @media screen and (min-width:550px){
       .previews .previews-info {
         grid-template-columns: repeat(2, 1fr);
-    }  
+    } 
 
+     .card {
+        grid-template-columns: repeat(2, 1fr);
+    }  
+  
+
+  @media screen and (max-width:500px){
+    /* .card {
+        grid-template-columns: repeat(2, 1fr);
+    }   */
+  
+
+    
+  }
   
    @media screen and (min-width:760px){
      .previews .previews-info {
         grid-template-columns: repeat(3, 1fr);
     } 
+
+    .content {
+        grid-template-columns: repeat(3, 1fr);
+    }  
+   }
 
      @media screen and (max-width:768px){
      .previews .previews-info {
@@ -594,6 +636,9 @@ border-radius: 50%;
         line-height: 1rem;
         text-align: center;  
     } 
+
+    
+
 
      .bigfive-img img {
             border-top-left-radius: 30px;
@@ -606,6 +651,13 @@ border-radius: 50%;
       #destinations {
         height: 100vh;
     } 
+    /* .row {
+            width: 100%;
+            margin: auto; 
+        }
+    form {
+        width: 80%;
+    } */
 
    
     #preview {
@@ -634,10 +686,19 @@ border-radius: 50%;
         #destinations {
         min-height: 100vh;
     } 
+
+   
+
     } 
 
+     @media screen and (min-width:768px){
+   
+  
+
+    }
+
      
-}
+
 
  @media screen and (max-width: 1024px){
     .carousel_slider img {
@@ -645,7 +706,7 @@ border-radius: 50%;
     } 
 
     #destinations {
-         min-height: 50vh;
+         height: 50vh;
         } 
     
 
@@ -662,15 +723,18 @@ border-radius: 50%;
         }
 }
 
-@media only screen and (max-width: 1600px){
+@media only screen and (min-width: 1600px){
    
          #destinations {
-             min-height: 120vh;
-
-       
-         padding: 0;
+             min-height: 110vh;
+             padding: 0;
        
     }
+
    
+
+   
+
+    
 
 }
