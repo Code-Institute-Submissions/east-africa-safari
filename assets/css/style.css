@@ -334,7 +334,7 @@ border-radius: 50%;
 
    .tab-bar {
        display:flex;
-       border-bottom: 1px solid #ff6700;
+       border-bottom: 1px solid #ff6700; 
        width: 90%;
        margin-left: 3rem;
        margin-bottom: 1rem; 
@@ -395,7 +395,10 @@ border-radius: 50%;
     .card .card-title  {
         font-size: 1.2rem;
         padding: .2rem;
-        background-color: #FF6700;
+        color: #c0c0c0;
+        border-top: 2px solid #ff6700;
+        background-color: #03045E;
+        text-transform: capitalize;
     }
 
     .card p {
@@ -487,6 +490,7 @@ border-radius: 50%;
 
         .center-form .field {
            outline: none;
+           color: #222222;
            border: 2px solid rgba(0,0,0,0);
            background-color: rgba(150, 117, 117, 0.2);
            margin-bottom: 1rem;
@@ -495,7 +499,7 @@ border-radius: 50%;
 
         .center-form .field:hover {
            background-color: rgba(0, 0, 0, 0.2);
-           color: #fafafa;
+           color: #03045E;
         }
 
          .center-form .field:focus {
@@ -507,7 +511,7 @@ border-radius: 50%;
             color: #03045E;
         }
 
-        /* styles for the caption button*/
+        /* ----------------------------------------------button styles for the carousel caption*/
 
         .btn-blue {
             background-color: #03045E !important;
@@ -526,7 +530,7 @@ border-radius: 50%;
          } 
 
 
-        /* styles for the top destinations button*/
+        /* ------------------------------------------button styles for the top destinations section*/
 
         .btn-blue1 {
             background-color: #03045E !important;
@@ -544,9 +548,8 @@ border-radius: 50%;
             font-weight: 600;
          } 
 
-
        
-/* styles for the feedback from button*/
+/* ----------------------------------------------------button styles for the feedback form button*/
          .btn-1 {
            background-color: #03045E !important;
             color:   #C0C0C0;
