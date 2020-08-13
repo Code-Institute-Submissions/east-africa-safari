@@ -86,8 +86,9 @@ __Landing Page__
 * The navigation bar is with the brand name acting as the logo, where by I used a different font - family of Cinzel 
 to bring the difference, also giving it a contrasting color of (#FF6700) contrasting with the background-color navy-blue 
 (#03045E) for the navbar.
+* The menu links have a different color (#C0C0C0), and when hovered over it changes to  #FF6700 making the site appealing.
 * Also the carousel has some text adverting East Africa Safari Website and with a button which takes the user to the top 
-destination sections when clicked.
+  destination sections when clicked.
 * The destinations button has dar(#FF6700) color and when hovered over it turns to transparent.
 
 __Previews Section__
