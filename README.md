@@ -102,6 +102,8 @@ __Previews Section__
  three destinations in every country.
  * The tab has three buttons at the top for displaying information for each category, with an active colour of orange (#FF6700) 
  for the highlighted category.
+ * I have highlighted the card title with a background of (#03045E) color and a contrasting text color O (c0c0c0), this is to 
+ draw users quick attention the name of the particular destination the user is reading about.
  * At the bottom of tab, there is a button directing the user to read more about the specific destination.
  * I modified Code from [here](https://www.youtube.com/watch?v=v6-4wh_o9iM) to come up with tabs for top destinations section. 
 
@@ -115,7 +117,8 @@ __Previews Section__
 
  __Feedback form__
  * This section is a feedback form for the users to send their feedback.
- * It starts with a feedback form at the left and an image at the right.
+ * It starts with an image at the left and a feedback form at the right.
+ * The feedback form has a hover state. 
  * The user get to fill the form created by [EmailJs](https://www.emailjs.com/) where by upon submitting the message will be 
  delivered to the developers email. 
 
@@ -133,13 +136,13 @@ __Previews Section__
     * The library helped me write code for the carousel, code copied and modified from [here](https://kenwheeler.github.io/slick/).
 * [Bootstrap framework] (https://getbootstrap.com/)
     * I used bootstrap for the navigation bar and the footer. 
-*[Gitpod] (https://www.gitpod.io/)
-*[Git Version Control] (https://www.gitpod.io/)
-*[Github] (https://github.com/)
+* [Gitpod] (https://www.gitpod.io/)
+* [Git Version Control] (https://www.gitpod.io/)
+* [Github] (https://github.com/)
 
 # Additional tools used
-*[Font Awesome] (https://fontawesome.com/)
-*[Google Fonts] (https://fonts.google.com/)
+* [Font Awesome] (https://fontawesome.com/)
+* [Google Fonts] (https://fonts.google.com/)
 
 # Testing
 
@@ -153,7 +156,7 @@ From there, I scrolled to the 'GitHub Pages' section.
 Then selected 'master branch' as my Source.
 Our  site is published and a link the live project is provided.
 
-#Deploying with Google Maps API
+# Deploying with Google Maps API
 I started by setting up an account [here](https://developers.google.com/maps/gmp-get-started)
 Then I used Maps Javascript API and an API key with the steps [here](https://developers.google.com/maps/documentation/javascript/get-api-key)
 After setting up my Google Maps feature in my project as described [here](https://developers.google.com/maps/documentation/javascript/overview), I restricted the key's access.
