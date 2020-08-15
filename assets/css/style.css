@@ -703,13 +703,6 @@ border-radius: 50%;
 
     
 
-    
-
-
-   
-
-
-
       #destinations {
         height: 100vh;
     } 
@@ -746,7 +739,11 @@ border-radius: 50%;
 
     } 
 
-   
+    @media screen and (min-width:768px){
+         .carousel_slider img {
+            height: 100vh !important; 
+    }
+    }
 
      
 
@@ -769,6 +766,8 @@ border-radius: 50%;
 
          
 }
+
+
 
 @media only screen and (min-width: 1600px){
    
