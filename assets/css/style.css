@@ -58,16 +58,6 @@ html, body {
 
  
 
-
-
-p {
-    margin: 0 1em;
-    padding: 0;
-    color: #03045E;
-}
-
-
-
 .container {
     width: 100%;
     min-height: 100vh;
@@ -563,19 +553,75 @@ border-radius: 50%;
         } 
 
 
-        
          
       /* ----------------------------------------------------styles for the footer*/
 
-        #footer {
-            /* background-color: #03045E; */
-            color:  #C0C0C0;
-            /* height: 120px; */
+        footer {
+            background-color: #03045E!important; 
+            color:  #C0C0C0; 
+            min-height: 120px;
         }
 
-        #footer p {
-            color:#C0C0C0;
+        footer p {
+            margin: 0;
+            padding: 0;
         }
+
+        footer a {
+            color:#C0C0C0;
+            text-decoration: none;
+        } 
+
+        footer a:hover {
+            color: #FF6700;
+            text-decoration: none;
+            
+        } 
+
+        .social-links {
+            padding-bottom: 20px; 
+           
+        }
+
+        .social-links li a i {
+            width: 32px;
+            height: 32px;
+            padding: 12px 0;
+            border-radius: 50%;
+            font-size: 15px;
+            line-height: 7px;
+            text-align: center;
+            color: #C0C0C0;
+            background-color: #FF6700;
+            transition: all 0.35s ease-in-out;
+            -moz-transition: all 0.35s ease-in-out;
+            -webkit-transition: all 0.35s ease-in-out;
+            -o-transition: all 0.35s ease-in-out;
+            box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+        }
+
+         .social-links li a i:hover {
+             background-color: #fafafa;
+                      }
+
+        .social-links li a:nth-child(1) i:hover {
+             background-color: #3b5999;
+                      }
+
+        .social-links li a:nth-child(2) i:hover {
+             background-color: #0077B5;
+                      }
+
+        .social-links li a:nth-child(2) i:hover {
+             background-color: #55acee;
+                      }
+
+        
+
+
+       
+
+        
 
       
  
@@ -687,7 +733,7 @@ border-radius: 50%;
     }
   
         #destinations {
-        min-height: 100vh;
+        height: 100vh;
     } 
 
    
