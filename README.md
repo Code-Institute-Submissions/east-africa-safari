@@ -1,4 +1,5 @@
-<img src="assest/images/readme-images/imageresponsive.png" style="margin: 0;">
+<!-- <img src="" style="margin: 0;"> -->
+![wireframe](assest/images/readme-images/imageresponsive.png?raw=true "wireframe")
 
 # East Africa Safari
 
