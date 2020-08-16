@@ -400,7 +400,7 @@ border-radius: 50%;
         
         #map {
             min-height: 70vh!important; 
-            width: 90%;
+            width: 80%;
             border: 5px solid  #03045E;
             border-radius: 20px;
             margin: 0 auto;
@@ -764,6 +764,10 @@ border-radius: 50%;
     .carousel_slider img {
     height: 100vh !important; 
     }
+
+    .feedback {
+          padding-top: 4rem;
+        }
    
 
    

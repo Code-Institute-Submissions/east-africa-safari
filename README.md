@@ -70,8 +70,8 @@ travel destinations through the read more buttons also.
 * This required drawing designs for different sections and different screen sizes.
 
 ### Surface Plane
-* At the surface plane I needed to come up with an visuallyu appealing site, google fonts I picked three different fonts
-  and incorpared different colors for contrast. The sequence in which information was presented is consistent too.
+* At the surface plane I needed to come up with an visually appealing site, for fonts I picked three different fonts
+  from google fonts and incorpared different colors for contrast. The sequence in which information was presented is consistent too.
 * I incorporated images in top destinations section and preview section too and also in the feedback form, just  to make 
 the site appealing in order to achieve the sites developer an user objectives
 * Buttons with hove state to capture the attention of the user
@@ -226,8 +226,8 @@ __As a user returning user__
 
 ## Further Testing
 * The Website was tested on Google Chrome, Microsoft Edge and firexoz Mozilla.
-* The website was viewed on Google chrome developer tools: iphone6/7/8, iphone6/7/8+, iphonex, ipad and ipad pro.
-* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, iPhone7&8 & .
+* The website was viewed on Google chrome developer tools: iphone6/7/8, iphone6/7/8Plus,  iphone x, ipad and ipad pro.
+* The website was viewed on Desktop, Laptop, and iPhone6.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
