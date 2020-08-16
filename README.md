@@ -1,5 +1,5 @@
 <!-- <img src="" style="margin: 0;"> -->
-![wireframe](assest/images/readme-images/imageresponsive.png?raw=true "wireframe")
+![wireframe](assets/images/readme-images/Imageresponsive.png?raw=true "wireframe")
 
 # East Africa Safari
 
