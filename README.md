@@ -127,23 +127,23 @@ __Previews Section__
  * 
 
  # Technologies used
- * [HTML5] (https://html5.com/)
+ * [HTML5](https://html5.com/)
     * The language used to add content to the website.
- * [CSS3] (https://css3.com/)
+ * [CSS3](https://css3.com/)
     * The language used to style HTML5 elements.
- * [JavaScript] (https://javascript.com/)
+ * [JavaScript](https://javascript.com/)
     * The language used to create tabs for the top destinations, implementing GOOGLE MAPS API and send emails with EmailJS.
-* [jQuery] (https://jquery.com/) 
+* [jQuery](https://jquery.com/) 
     * The library helped me write code for the carousel, code copied and modified from [here](https://kenwheeler.github.io/slick/).
-* [Bootstrap framework] (https://getbootstrap.com/)
+* [Bootstrap framework](https://getbootstrap.com/)
     * I used bootstrap for the navigation bar and the footer. 
-* [Gitpod] (https://www.gitpod.io/)
-* [Git Version Control] (https://www.gitpod.io/)
-* [Github] (https://github.com/)
+* [Gitpod](https://www.gitpod.io/)
+* [Git Version Control](https://www.gitpod.io/)
+* [Github](https://github.com/)
 
 # Additional tools used
-* [Font Awesome] (https://fontawesome.com/)
-* [Google Fonts] (https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
 
 # Testing
 
