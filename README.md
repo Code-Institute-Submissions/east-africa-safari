@@ -160,7 +160,16 @@ Our  site is published and a link the live project is provided.
 # Deploying with Google Maps API
 I started by setting up an account [here](https://developers.google.com/maps/gmp-get-started)
 Then I used Maps Javascript API and an API key with the steps [here](https://developers.google.com/maps/documentation/javascript/get-api-key)
-After setting up my Google Maps feature in my project as described [here](https://developers.google.com/maps/documentation/javascript/overview), I restricted the key's access.
+After setting up my Google Maps feature in my project as described [here](https://developers.google.com/maps/documentation/javascript/overview), 
+I restricted the key's access.
+
+# Making a Local Clone
+1. Log in to GitHub and locate the [GitHub Repository]().
+2. Under the repository name, click "Clone or download".
+3. If using Github Desktop, chose to Open in Desktop.
+4. If you want to Clone the files into a Git repository, copy the URL open [gitbash](https://git-scm.com/downloads).
+5. Type git clone, and then paste the URL you copied in Step 3.
+6. Press Enter. Your local clone will be created.
 
 
 
