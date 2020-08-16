@@ -262,7 +262,7 @@ border-radius: 50%;
     font-size: 2rem;
     font-family: 'Acme', sans-serif;
     letter-spacing: 2px;
-     margin-bottom: 0;
+    /* margin-bottom: 1rem; */
     text-transform: capitalize;
     color: #03045E;
    } 
@@ -273,10 +273,16 @@ border-radius: 50%;
     text-align:center;
     color:#03045E;
     margin: 5px;
+    margin-bottom: 1rem;
     padding: 0 2rem;  
     
   
    }  
+
+    .preview-back-desc p a {
+        text-decoration: none;
+        color:#03045E;
+    }
 
   
 
@@ -503,6 +509,28 @@ border-radius: 50%;
             font-weight: 600;
          } 
 
+         /* ----------------------------------------------button styles for the preview cards*/
+
+        .btn-blue2 {
+            color:   #ff6700;
+            font-size: 1.3rem;
+            width: 30%;
+            margin-right: 50px;
+            text-transform: capitalize;
+            /* transition: background-color 3s ease-out; */
+            
+                    } 
+
+        .btn-blue2:hover {
+            
+            
+            color:  #03045E;
+            font-family:'Acme', sans-serif;
+            
+         } 
+
+
+
 
         /* ------------------------------------------button styles for the top destinations section*/
 
@@ -547,7 +575,7 @@ border-radius: 50%;
         footer {
             background-color: #03045E!important; 
             color:  #C0C0C0; 
-            min-height: 120px;
+            min-height: 80px;
         }
 
         footer p {
@@ -603,6 +631,7 @@ border-radius: 50%;
 
         #footer-details {
             padding: 20px;
+            
         }
 
         
@@ -756,7 +785,6 @@ border-radius: 50%;
 @media only screen and (min-width: 1600px){
    
          #destinations {
-             /* min-height: 110vh; */
              padding: 0;
        
     }
@@ -765,9 +793,7 @@ border-radius: 50%;
     height: 100vh !important; 
     }
 
-    .feedback {
-          padding-top: 4rem;
-        }
+   
    
 
    
