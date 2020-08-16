@@ -1,4 +1,4 @@
-<!-- <img src="" style="margin: 0;"> -->
+
 ![wireframe](assets/images/readme-images/Imageresponsive.png?raw=true "wireframe")
 
 # East Africa Safari
@@ -22,22 +22,24 @@ also response to the user.
 
 # ux
 
- __As a developer__ 
-     - I have always been attracted to tourist sites and travelling therefore I wanted to begin with the new found knowledge
-     and create a travel site which will showcase various travel sites in East Africa, I hope to create an interactive 
-     interesting site that will motivate more tourists to visit east Africa.
-     - I want users to browse with ease my site as they search for travel destinations in East Africa.
+ __As a First Time Visitor__ 
+*  As a first time visitor i want to browse with ease and easily understand the main aim of the website.
+*  I want to be able to navigate easily to different sections. 
+*  Also I  want to locate their social media links to determine if they have followere and if they are trusted. 
 
   __As a user who likes travelling__
-     - I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
+     * I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
 
   __As a user who is a tourist__
-     - I am a user who is looking for a travel destination site in East Africa. I want to be able to make 
+     * I am a user who is looking for a travel destination site in East Africa. I want to be able to make 
 a choice after visiting the website.
 
   __As a user who is fascinated by nature__
-     - I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
+     * I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
 worth visitimg the site again, if the site will be captivating.
+    __As a user returning user__
+     -* As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I 
+       may have.
 
 ## UX Design 
 
@@ -164,6 +166,72 @@ __Previews Section__
     * With EmailJS I was able to build an iteractive feedback form.
 
 # Testing
+* [W3C Markup Validator](https://validator.w3.org/)
+* HTML 
+    * __HTML__: After validating I received this message:- 
+        * Warning: The type attribute is unnecessary for JavaScript resources.
+          type="text/javascript"
+             - i decided to keep it as it was copied direct from EmailJS instruction's page.
+        * For the navigation section: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+          section id="header"
+             
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+     * __CSS__: After validating I received this message:- 
+        * Warnings (3)
+    		-moz-transition is an unknown vendor extension
+    		-webkit-transition is an unknown vendor extension
+    		-o-transition is an unknown vendor extension
+            * I decided to remove them from the style rule for social-links li a i for the code to pass the test.
+
+* [JSHint](https://jshint.com/)
+    * __JavaScript__: After validating I received warnings on sendEmail.js and Map.js but tabs.js did not have any warnings.
+
+
+
+## Testing User Stories from User Experience (UX) Section
+__As a First Time Visitor__ 
+*  As a first time visitor i want to browse with ease and easily understand the main aim of the website.
+    * Upon entering the site the users are greeted with a clean navigtaion bar with links to different sections.
+    * The carousel section at the landing page has a caption and a 'destinations' button where by upon clicking
+    it will take the to top destinations.
+*  I want to be able to navigate easily to different sections. 
+    * A user will navigate easily to different sections through the links at the navigation bar and quick links at the 
+    footer too.
+*  Also I  want to locate their social media links to determine if they have followers and if they are trusted. 
+    * At the footer the user will find social links.
+
+__As a user who likes travelling__
+* I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
+    * At the preview section, the user will get preview stories about Kenya, Uganda and Tanzania, this will entice the 
+    to want to read more.
+
+__As a user who is a tourist__
+* I am a user who is looking for a travel destination site in East Africa. I want to be able to make 
+a choice after visiting the website.
+    * At the Top destination section the user will be able to view different possible tourist sites
+    that they may visit.
+
+__As a user who is fascinated by nature__
+* I would like to visit websites that talk about tourism and related topics so I will browse this website and see it 
+worth visitimg the site again, if the site will be captivating.
+    * At the preview section and top destination sections there are the 'read-more' buttons which will take the user to 
+    wikipedia pages for more information.
+
+__As a user returning user__
+* As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I 
+       may have.
+    * At the feedback section there is an interactive feedback form where the user can give their feedback or incase of 
+    questions to the developer and the same the developer can reply back.
+
+## Further Testing
+* The Website was tested on Google Chrome, Microsoft Edge and firexoz Mozilla.
+* The website was viewed on Google chrome developer tools: iphone6/7/8, iphone6/7/8+, iphonex, ipad and ipad pro.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, iPhone7&8 & .
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+
 
 
 # Deployment

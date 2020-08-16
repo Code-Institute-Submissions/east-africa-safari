@@ -132,27 +132,25 @@ var btn2 = document.getElementById("btn2");
 var btn3 = document.getElementById("btn3");
 
 function openKenya() {
-    content1.style.transform="translateX(0)";
-    content2.style.transform="translateX(100%)";
-    content3.style.transform="translateX(100%)";
+    content1.style.transform = "translateX(0)";
+    content2.style.transform = "translateX(100%)";
+    content3.style.transform = "translateX(100%)";
     btn1.style.color = "#FF6700";
     btn2.style.color = "#03045E";
     btn3.style.color = "#03045E";
-
 }
 function openUganda() {
-    content1.style.transform="translateX(100%)";
-    content2.style.transform="translateX(0)";
-    content3.style.transform="translateX(100%)";
+    content1.style.transform = "translateX(100%)";
+    content2.style.transform = "translateX(0)";
+    content3.style.transform = "translateX(100%)";
     btn2.style.color = "#FF6700";
     btn1.style.color = "#03045E";
     btn3.style.color = "#03045E";
-
 }
 function openTanzania() {
-    content1.style.transform="translateX(100%)";
-    content2.style.transform="translateX(100%)";
-    content3.style.transform="translateX(0)";
+    content1.style.transform = "translateX(100%)";
+    content2.style.transform = "translateX(100%)";
+    content3.style.transform = "translateX(0)";
     btn3.style.color = "#FF6700";
     btn2.style.color = "#03045E";
     btn1.style.color = "#03045E";
