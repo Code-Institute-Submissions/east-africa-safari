@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="assest/images/readme-images/imageresponsive.png" style="margin: 0;">
 
 # East Africa Safari
 
@@ -45,7 +45,7 @@ worth visitimg the site again, if the site will be captivating.
 and the user. Appropriate use of HTML5, CSS3 and Javascript would help me achieve in creating an interactive site.
 
 ### Scope Plane
-* This is where according to user needs I incorporated a map, top travel destinations and feedback section for my users 
+* This is where according to user needs I visualised incorporating a map, top travel destinations and feedback section for my users 
 be totally informed and interact with the site, and top destinations section too as a feature would help th user explore top
 travel destinations through the read more buttons also.
 
@@ -54,9 +54,9 @@ travel destinations through the read more buttons also.
 * I started with the navigation bar at the top and footer at the bottom.
 * The navigation bar has links to allow navigation to different areas.
 * The navbar and the footer has same background colors for easy identification.
-* A corousel section to engage the user.
-* A destinations section to invite the user to top destinations section.
-* Previews stories section to inspire the user.
+* A corousel (my landing page)section with images to engage the user.
+* The landing page has a button to (destinations section) to invite the user to top destinations section.
+* Previews stories section to inspire the user with images at the front and preview stories at the back.
 * Map section to help user see locations in the map.
 * Feedback section for any feedback from the user.
 * With different color variations to keep the user engaged.
@@ -138,32 +138,49 @@ __Previews Section__
 * [Bootstrap framework](https://getbootstrap.com/)
     * I used bootstrap for the navigation bar and the footer. 
 * [Gitpod](https://www.gitpod.io/)
+    * I used Gitpod's IDE to write the code for my project.
 * [Git Version Control](https://www.gitpod.io/)
+    * I used Git for Version Control.
 * [Github](https://github.com/)
+    * I hosted my deployed website on GitHub, with previous versions of my code stored through the commit history.
 
 # Additional tools used
 * [Font Awesome](https://fontawesome.com/)
+    *  I used three social media icons for Facebook, LinkedIn and Twitter.
 * [Google Fonts](https://fonts.google.com/)
+    * I used three different fonts from Google for the project: Alata for the body, Acme for titles and Cinzel for navbar 
+      brand which acted as the logo.
+* [TinyPNG](https://tinypng.com/)
+    * I used TinyPNG to compress my images to try to reduce the loading time in my site.
+* [Pexels](https://www.pexels.com/)
+    * I sourced other images used in my website from pexels.
+* [Unsplash](https://www.unsplash.com/)
+    * Other images i sourced from Unsplash.
+* [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-javascript)
+    * I used the Google Maps API for the explore section to create a map which is interactive with markers to highlighted
+      top travel destinations in East Africa.
+* [EmailJS](https://www.emailjs.com/)
+    * With EmailJS I was able to build an iteractive feedback form.
 
 # Testing
 
 
 # Deployment
-## Deployment of the project
-### Deploying to Github Pages
+## Deployment of the Project
+## Deploying to Github Pages
 Below is the deployment process. Deployment enables the project to be viewed live by others.
-I navigated the 'Settings' section of my project repository at the top right of the page.
-From there, I scrolled to the 'GitHub Pages' section.
-Then selected 'master branch' as my Source.
-Our  site is published and a link the live project is provided.
+* I navigated to the 'Settings' section of my project repository at the top right of the page.
+* From there, I scrolled to the 'GitHub Pages' section.
+* Then selected 'master branch' as my Source.
+* Our  site is published and a link the live project is provided.
 
-# Deploying with Google Maps API
-I started by setting up an account [here](https://developers.google.com/maps/gmp-get-started)
-Then I used Maps Javascript API and an API key with the steps [here](https://developers.google.com/maps/documentation/javascript/get-api-key)
-After setting up my Google Maps feature in my project as described [here](https://developers.google.com/maps/documentation/javascript/overview), 
-I restricted the key's access.
+## Deploying with Google Maps API
+* I started by setting up an account [here](https://developers.google.com/maps/gmp-get-started)
+* Then I used Maps Javascript API and an API key with the steps [here](https://developers.google.com/maps/documentation/javascript/get-api-key)
+* After setting up my Google Maps feature in my project as described [here](https://developers.google.com/maps/documentation/javascript/overview), 
+* I restricted the key's access.
 
-# Making a Local Clone
+## Making a Local Clone
 1. Log in to GitHub and locate the [GitHub Repository]().
 2. Under the repository name, click "Clone or download".
 3. If using Github Desktop, chose to Open in Desktop.
