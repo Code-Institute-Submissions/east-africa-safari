@@ -225,11 +225,24 @@ __As a user returning user__
     questions to the developer and the same the developer can reply back.
 
 ## Further Testing
-* The Website was tested on Google Chrome, Microsoft Edge and firexoz Mozilla.
+* The Website was tested on Google Chrome, Microsoft Edge and firefox Mozilla.
 * The website was viewed on Google chrome developer tools: iphone6/7/8, iphone6/7/8Plus,  iphone x, ipad and ipad pro.
 * The website was viewed on Desktop, Laptop, and iPhone6.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+## Testing results
+### On Ipad/Tablet (768x1024px ) and Mobile (320x480px)
+* All the sections are responsive except a white space was appearing vertically after the navigation bar 
+* This was being caused by the margin give to the feedback button that I removed and the horizontal scroll was solved out.
+* The Tob destinations also was not displaying well with some information being hidden, the button to the first image is
+   fully revealed and all the other images also are hidden.
+
+### On Laptop (1280x802px) and Desktop (1600x992px)
+* on Desktop the carousel images were not displaying 100vh, there was a grey space being revealed, i tackled that with 
+   media query.
+* On Laptop the cheetah carousel image was also displaying but leaving a grey space towards the bottom (displayin about 90vh)
+leaving a revealing a grey space.
 
 
 

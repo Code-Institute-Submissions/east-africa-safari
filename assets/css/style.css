@@ -517,16 +517,11 @@ border-radius: 50%;
             width: 30%;
             margin-right: 50px;
             text-transform: capitalize;
-            /* transition: background-color 3s ease-out; */
-            
                     } 
 
         .btn-blue2:hover {
-            
-            
             color:  #03045E;
             font-family:'Acme', sans-serif;
-            
          } 
 
 
@@ -731,7 +726,7 @@ border-radius: 50%;
         height: 80vh;
         padding: 0;
     }
-    /* this code was to enable the carousel images to display 100vh, it was initially displaying 70vh leaving a grey space*/
+    /* this code was to enable the carousel cheetah images to display 100vh on laptop, it was initially displaying 90vh leaving a grey space*/
     .carousel_slider img {
     height: 100vh !important; 
     }
@@ -788,10 +783,23 @@ border-radius: 50%;
              padding: 0;
        
     }
- /* this code was to enable the carousel images to display 100vh, it was initially displaying 70vh leaving a grey space*/
+ /* this code was to enable the carousel images to display 100vh on desktop, it was initially displaying 70vh leaving a grey space*/
     .carousel_slider img {
     height: 100vh !important; 
     }
+
+    #preview {
+        height: 100vh !important;
+    }
+
+    #destinations {
+        height: 100vh !important;
+    }
+
+     #explore {
+        height: 100vh !important;
+    }
+
 
    
    
