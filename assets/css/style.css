@@ -647,9 +647,9 @@ footer a:hover {
 }
  
 @media screen and (min-width:550px){
-    .previews .previews-info {
+    /* .previews .previews-info {
         grid-template-columns: repeat(2, 1fr);
-    } 
+    }  */
 
      .card {
         grid-template-columns: repeat(2, 1fr);
@@ -657,9 +657,9 @@ footer a:hover {
    
 
 @media screen and (min-width:760px){
-     .previews .previews-info {
+     /* .previews .previews-info {
         grid-template-columns: repeat(3, 1fr);
-    } 
+    }  */
 
     .content {
         grid-template-columns: repeat(3, 1fr);
@@ -672,12 +672,12 @@ footer a:hover {
 }
 
 @media screen and (max-width:768px){
-    .previews .previews-info {
+    /* .previews .previews-info {
         grid-template-columns: repeat(2, 1fr);
         font-size: .8rem;
         line-height: 1rem;
         text-align: center;  
-    } 
+    }  */
 
     
 
@@ -686,10 +686,10 @@ footer a:hover {
     } 
  
    
-    #preview {
+    /* #preview {
        height: 100vh !important;
         margin: 1rem 0;
-    }
+    } */
 
      #map {
         width: 100%;
