@@ -195,19 +195,25 @@ border-radius: 50%;
 
 
 .previews .previews-info {
-     display: grid; 
-     grid-template-columns: minmax(300px, 1fr);  
+     display: flex; 
+     flex-wrap: wrap;
+     justify-content: center;
+     /* grid-template-columns: minmax(300px, 1fr);  
      justify-content: center;  
      grid-gap: 2rem;
-     margin: 2rem;
+     margin: 2rem; */
 } 
 
 .previews .previews-info .preview {
-    width: 100%;
+    /* width: 100%; */
     min-height: 400px;
     position: relative;
     transition: .3s ease transform; 
     text-align: center; 
+    width: 350px;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+
 }  
 
 .previews .previews-info .preview .preview-card {
@@ -475,6 +481,7 @@ border-radius: 50%;
     width: 30%;
     transition: background-color 3s ease-out; 
     font-family: 'Acme',sans-serif;
+    margin: 0 160px;
     z-index: 1;
     border: 2px solid #03045E;
     text-transform: capitalize;

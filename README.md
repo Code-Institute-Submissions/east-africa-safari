@@ -2,6 +2,7 @@
 ![wireframe](assets/images/readme-images/Imageresponsive.png?raw=true "wireframe")
 
 # East Africa Safari
+[View the live project here](https://jos-lab.github.io/east-africa-safari/)
 
 East Africa Safari is an imagined travel site that I created to inspire and motivate users from accross the globe to tour 
 East Africa having featured top travel destinations in Kenya, Uganda and Tanzania at the moment.
@@ -117,7 +118,7 @@ __Previews Section__
  three destinations in every country.
  * The tab has three buttons at the top for displaying information for each category, with an active colour of orange (#FF6700) 
  for the highlighted category.
- * I have highlighted the card title with a background of (#03045E) color and a contrasting text color O (c0c0c0), this is to 
+ * I have highlighted the card title with a background of (#03045E) color and a contrasting text color O (#c0c0c0), this is to 
  draw users quick attention the name of the particular destination the user is reading about.
  * At the bottom of tab, there is a button directing the user to read more about the specific destination.
  * I modified Code from [here](https://www.youtube.com/watch?v=v6-4wh_o9iM) to come up with tabs for top destinations section. 
@@ -179,6 +180,16 @@ __Previews Section__
       top travel destinations in East Africa.
 * [EmailJS](https://www.emailjs.com/)
     * With EmailJS I was able to build an iteractive feedback form.
+* [CoolorsS](https://coolors.co/)
+    * I selected my colors from coolors.
+        * (#FF6700) - for navbar brand that acted as our logo, hover on navigation links and social links background at the footer.
+        * (#c0c0c0) - for navigation links, social links and button text.
+        * (#03045E) - for general website text and background for buttons on hover state.
+* [social colors](https://www.materialui.co/socialcolors)
+        * (#3b5999) - for background-color hover for facebook.
+        * (#0077B5) - for background-color hover for linkedin.
+        * (#55acee) - for background-color hover for twitter.
+    
 
 # Testing
 * [W3C Markup Validator](https://validator.w3.org/)
