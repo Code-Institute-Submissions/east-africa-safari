@@ -77,6 +77,16 @@ the site appealing in order to achieve the sites developer an user objectives
 * Buttons with hove state to capture the attention of the user
 * Contrast in colors for buttons and text.
 
+# Wireframes for my Project
+## Wireframe for Mobile
+![wireframe](assets/images/readme-images/mobile.png?raw=true "wireframe")
+
+## Wireframe for Tablet
+![wireframe](assets/images/readme-images/Tablet.png?raw=true "wireframe")
+
+## Wireframe for Desktop
+![wireframe](assets/images/readme-images/desktop.png?raw=true "wireframe")
+
 # Features
 * At the top section that is home I used navigation bar with links to navigate to different sections of the wedsite. Each link will allow the 
 user to navigate to different sections of the page for it is clickable and has smooth scroll to the respective sections.
@@ -244,6 +254,30 @@ __As a user returning user__
    media query.
 * On Laptop the cheetah carousel image was also displaying but leaving a grey space towards the bottom (displayin about 90vh)
   leaving a revealing a grey space. I solved it with a media querry.
+* On Desktop the smooth scroll was missing the targeted sections, it was scrolling past the page, making the sections not 
+   balance visually on the page. I tried media query for the respective sections to display min-height: 100vh, but it 
+   not solve.
+* Also on desktop view the lion image for the preview section is increased in height. I wrote media Query to override 
+  it but it did not work, probably maybe because the styles for the preview front were inline.
+* I was not able to correct the above issues in time however I am working on them in a cloned version so a to know how solve
+  them.
+
+## Manually testing the functionality of all links
+* All the Links to the sections are working well, and the buttons  for readmore also have target blank.
+
+## Manually testing the feedback form
+* The feedback form 'required' attribute is working, it will not submit empty form instead it will pop up 
+  a message stating 'please fill out this field'.
+* When I added method='POST' to my form  in HTML the form EmailJS execution failed, with the following error message;
+    * Error response
+        Error code: 501
+        Message: Unsupported method ('POST').
+        Error code explanation: HTTPStatus.NOT_IMPLEMENTED - Server does not support this operation.
+
+  but upon removing method='POST' the form 
+  EmailJS execution was successful.             
+
+
 
 
 
