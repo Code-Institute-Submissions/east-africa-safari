@@ -789,15 +789,15 @@ border-radius: 50%;
     }
 
     #preview {
-        height: 100vh !important;
+        min-height: 100vh !important;
     }
 
     #destinations {
-        height: 100vh !important;
+        min-height: 100vh !important;
     }
 
      #explore {
-        height: 100vh !important;
+        min-height: 100vh !important;
     }
 
 
