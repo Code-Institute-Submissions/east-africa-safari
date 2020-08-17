@@ -254,6 +254,7 @@ __As a user returning user__
 * The Website was tested on Google Chrome, Microsoft Edge and firefox Mozilla.
 * The website was viewed on Google chrome developer tools: iphone6/7/8, iphone6/7/8Plus,  iphone x, ipad and ipad pro.
 * The website was viewed on Desktop, Laptop, and iPhone6.
+* Friends and family also checked on their mobile and there was  some issues.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -263,7 +264,8 @@ __As a user returning user__
 * This was being caused by the margin given to the feedback button that I removed and the horizontal scroll was solved out.
 * The Tob destinations also was not displaying well with some information being hidden, the button to the first image is
    fully revealed and all the other images also are hidden.
-* On mobile the preview back descripttion is overflowing.
+* On mobile the preview back descripttion is overflowing. To solve this i redesigned the preview section cards using flexbox
+  and the preview back descriptions were contained in the cards without overflowing on mobile view.
 
 ### On Laptop (1280x802px) and Desktop (1600x992px)
 * on Desktop the carousel images were not displaying 100vh, there was a grey space being revealed, I tackled that with 
@@ -273,10 +275,7 @@ __As a user returning user__
 * On Desktop the smooth scroll was missing the targeted sections, it was scrolling past the page, making the sections not 
    balance visually on the page. I tried media query for the respective sections to display min-height: 100vh, but it 
    not solve.
-* Also on desktop view the lion image for the preview section is increased in height. I wrote media Query to override 
-  it but it did not work, probably maybe because the styles for the preview front were inline.
-* I was not able to correct the above issues in time however I am working on them in a cloned version so a to know how solve
-  them.
+
 
 ## Manually testing the functionality of all links
 * All the Links to the sections are working well, and the buttons  for readmore also have target blank.
@@ -314,12 +313,15 @@ Below is the deployment process. Deployment enables the project to be viewed liv
 * I restricted the key's access.
 
 ## Making a Local Clone
-1. Log in to GitHub and locate the [GitHub Repository]().
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
 2. Under the repository name, click "Clone or download".
 3. If using Github Desktop, chose to Open in Desktop.
 4. If you want to Clone the files into a Git repository, copy the URL open [gitbash](https://git-scm.com/downloads).
 5. Type git clone, and then paste the URL you copied in Step 3.
 6. Press Enter. Your local clone will be created.
+6. Use this [link](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to view
+ more explanation of the process.
+
 
 # Credits
 
