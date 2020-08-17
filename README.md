@@ -77,14 +77,15 @@ the site appealing in order to achieve the sites developer an user objectives
 * Buttons with hove state to capture the attention of the user
 * Contrast in colors for buttons and text.
 
-# Wireframes for my Project
-## Wireframe for Mobile
+## Wireframes for my Project
+* I designed my wireframes using Microsoft Word, and saved them using Adobe, after resizing with TinyPNG and maintained as png.
+### Wireframe for Mobile
 ![wireframe](assets/images/readme-images/mobile.png?raw=true "wireframe")
 
-## Wireframe for Tablet
+### Wireframe for Tablet
 ![wireframe](assets/images/readme-images/Tablet.png?raw=true "wireframe")
 
-## Wireframe for Desktop
+### Wireframe for Desktop
 ![wireframe](assets/images/readme-images/desktop.png?raw=true "wireframe")
 
 # Features
@@ -122,9 +123,9 @@ __Previews Section__
  * I modified Code from [here](https://www.youtube.com/watch?v=v6-4wh_o9iM) to come up with tabs for top destinations section. 
 
  __Google Maps API Section__
- * In this section i have showcased a map displaying kenya, uganda and tanzania, its center point being Maasai Mara National Park 
+ * In this section I have showcased a map displaying kenya, uganda and tanzania, its center point being Maasai Mara National Park 
  and with a zoom of 6, the javaScript used on for  __Google Maps__ can be found on maps.js page. I needed to intergrate map 
- markers such that a when user clicks on the marker it opens an info window displaying the name of the location. To this point I copied
+ markers such that a when user clicks on the marker it opens an info window displaying the name of the location. To this point I refferenced
  code from a repository by code institute student and the markers displayed. I started with [Geocoding](https://developers.google.com/maps/documentation/javascript/geocoding) but there was a concept i was missing, so i got code from code institute github 
  repository which was iterating through two variables contents and locations to create map markers, i modified it to display
  the top destinations location in the map by use of map markers and an infowindow.
@@ -137,7 +138,9 @@ __Previews Section__
  delivered to the developers email. 
 
  __Features Left to implement__
- * 
+ * I would like to have a more interactive map.
+ * I would also like to have a more interactive feedback form
+  
 
  # Technologies used
  * [HTML5](https://html5.com/)
@@ -165,6 +168,8 @@ __Previews Section__
       brand which acted as the logo.
 * [TinyPNG](https://tinypng.com/)
     * I used TinyPNG to compress my images to try to reduce the loading time in my site.
+* [Adobe Acrobat](https://www.adobe.com/)
+    * I designed my wireframes using Microsoft Word, and saved them using Adobe, after resizing with TinyPNG and maintained as png..
 * [Pexels](https://www.pexels.com/)
     * I sourced other images used in my website from pexels.
 * [Unsplash](https://www.unsplash.com/)
@@ -214,7 +219,7 @@ __As a First Time Visitor__
 __As a user who likes travelling__
 * I am a user who has never been to East Africa, I want to browse the site and get inspiration to tour East Africa.
     * At the preview section, the user will get preview stories about Kenya, Uganda and Tanzania, this will entice the 
-    to want to read more.
+    user to want to read more.
 
 __As a user who is a tourist__
 * I am a user who is looking for a travel destination site in East Africa. I want to be able to make 
@@ -304,6 +309,29 @@ Below is the deployment process. Deployment enables the project to be viewed liv
 4. If you want to Clone the files into a Git repository, copy the URL open [gitbash](https://git-scm.com/downloads).
 5. Type git clone, and then paste the URL you copied in Step 3.
 6. Press Enter. Your local clone will be created.
+
+# Credits
+
+## Code 
+* I modified Code from [here](https://www.youtube.com/watch?v=v6-4wh_o9iM) to come up with tabs for top destinations section. 
+* I refferenced code from a repository by code institute student for the map markers to display.
+* My Mentor helped fix an error with my EmailJS script code, at SendEmail.js I had written 'my_feedback: contactForm.feedback.value',
+  instead of 'my_feedback: contactForm.message.value,'
+
+## Content
+* Content for this site was sourced from the internet.
+
+## Images
+* All images were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://www.unsplash.com/)
+
+## Acknowledgement
+* I sincerely wish to thank the following for their extraordinary support and patience all together that helped me 
+   manage througout the project.
+   * __My Mentor__:The guidance and support of my mentor Akshat Garg.
+    * __Code Institute Community__: Studentcare and Tutors for the support and understanding that I cannot explain, extra-ordinarily
+        amazing support, second to none from code institute as a whole which went along way to help me finish my project.
+       .
+  
 
 
 
