@@ -294,9 +294,6 @@ __As a user returning user__
 
 
 
-
-
-
 # Deployment
 ## Deployment of the Project
 ## Deploying to Github Pages
@@ -311,6 +308,10 @@ Below is the deployment process. Deployment enables the project to be viewed liv
 * Then I used Maps Javascript API and an API key with the steps [here](https://developers.google.com/maps/documentation/javascript/get-api-key)
 * After setting up my Google Maps feature in my project as described [here](https://developers.google.com/maps/documentation/javascript/overview), 
 * I restricted the key's access.
+
+## Deploying with EmailJS
+* I started by setting up an account [here](https://www.emailjs.com/docs/tutorial/adding-email-service/).
+* I chose the free account then followed the steps from the tutorial, creating a template and adding the EmailJS javascript library to my project.
 
 ## Making a Local Clone
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
@@ -334,7 +335,7 @@ Below is the deployment process. Deployment enables the project to be viewed liv
 ## Content
 * Content for this site was sourced from the internet.
 
-## Images
+## Media
 * All images were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://www.unsplash.com/)
 
 ## Acknowledgement
